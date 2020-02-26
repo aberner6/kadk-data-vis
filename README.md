@@ -29,7 +29,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -37,7 +36,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -45,7 +43,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -53,7 +50,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -61,7 +57,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -69,7 +64,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -77,7 +71,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -85,7 +78,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -93,7 +85,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
@@ -101,7 +92,6 @@ March 10 - April 3rd, 2020
 * Focus: 
 * Lecture: 
 * Exercises:
-    * 
 * Reading
 * Assignment:
 
