@@ -10,6 +10,20 @@ March 10 - April 3rd, 2020
 
 * Data Visualisation
 
+## Expectations:  
+
+* You will have a shallow understanding of how to create interactive, web-based data visualisations
+* You will hopefully be excited to dive deeper in the future
+* It takes years to get familiar with code
+* Expect to hit your head against your computer for many hours
+* Expect to ask for help
+* Expect to give help
+
+## Hygiene:  
+* Turn your assignments in by ___ every week
+* Come on time to class
+* Feel free to take as many water, stretching and bathroom breaks as you need
+
 ## Resources
 
 * Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
