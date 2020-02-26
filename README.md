@@ -22,77 +22,77 @@ March 10 - April 3rd, 2020
 * Exercises: 
     * Understanding data visualisation 
     * Group work to create
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 2
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 3
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 4
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 5:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 6:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 7:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 8:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 9:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 10:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Day 11:
 * Focus: 
 * Lecture: 
 * Exercises:
-* Reading
+* Reading:
 * Assignment:
 
 ### Presentations:
