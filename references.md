@@ -1,11 +1,22 @@
-## DATA:
+
+# PROGRAMMING
+## Mantras:
+(from [ITP / James](https://github.com/ITPNYU/ICM-2019-Media))
+* "Practice is the best of all instructors." - computation requires practice
+* "An agreeable companion on a journey is as good as a carriage." - look to your classmates for help too
+* "While we stop to think, we often miss our opportunity." - sometimes you need to take a leap of faith
+* "When two do the same thing, it is not the same thing after all." - encourage students with similar ideas
+* "The bow too tensely strung is easily broken." - don't get too stressed out
+All of these are from Plubius Syrus.(42 B.C.)
+
+# DATA:
 ### []()
 
 ### []()
 
-## VISUALISATION:
+# VISUALISATION:
 
-## INSPIRATION
+# DATA VISUALISATION
 ### Data and Journalism
 Data visualisation embedded into journalism
 * [The Upshot](https://www.nytimes.com/section/upshot)

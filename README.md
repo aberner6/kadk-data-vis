@@ -22,29 +22,31 @@ Futures:
 * Visual encoding
 * Data and Ethics
 
-## Expectations:  
-* Each week's plan and the accompanying assignments will shift slightly to accommodate the pace of the learners
-* You will gain a basic understanding of how to create interactive, web-based data visualisations
-* You will gain resources to dive deeper in the future
-* It takes years to get familiar with code
-* Expect to hit your head against your computer for many hours
-* Expect to ask for help
-* Expect to give help
+## Our Expectations:  
+* Each week's plan and the accompanying assignments will shift slightly to accommodate the pace of the learners.
+* Attendance is mandatory. Please inform me via email if you are going to miss a class.
+* This class is participatory. You are expected to participate in discussions and give feedback to other students both in class and participate with their projects.
 
-## Hygiene:  
-* Turn your assignments in by Monday every week
-* Every input to assignments should be posted on your blog 
-* Come on time to class
-* Feel free to take as many water, stretching and bathroom breaks as you need
+* You will gain resources to dive deeper in the future
+* It takes years to get familiar with code so expect to hit your head against your computer for many hours.
+* Expect to ask for and give help.
+* Breaks are good. Take as many water, stretching and bathroom breaks as you need
+
+## Documentation:  
+* Turn your assignments in by Monday every week.
+* Keep your blog up to date with the work you did in-class and/or in the assignments.
 
 ## Resources
-* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
+* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/resources.md)
 
 ## Student Work
-* Please document your work throughout the course by setting up a blog on your preferred platform. For example: tumblr, google docs, google slides, github, or whatever else you prefer. Post a link to it here: 
+* We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
 
-## Schedule
-### Day 1
+# Schedule
+## Part A
+* Warm up to the class, topic and technique
+
+### March 10
 * Focus: Warm up
 * Lecture: 
     - Overview: introductions + class structure 
@@ -55,14 +57,16 @@ Futures:
     - Analog data collection, analysis, visualisation
 * Assignment:
     - Admin: set up blog + code spots
+    - Design: post your work from the analog data exercise
     - Theory: find one inspiration and post the link on your blog with a discussion of: 
         - Why it inspires you
         - Who it is for
         - How you think they built it
         - What its goal seems to be
     - Read: [The Philosophy of Data](https://www.nytimes.com/2013/02/05/opinion/brooks-the-philosophy-of-data.html?_r=1&)
+    - Read: [HTML/CSS/JS TUTORIAL]
 
-### Day 2
+### March 12
 * Focus: visual encoding + programming concepts
 * Lecture: 
     - Review: discuss inspirations + reading
@@ -73,13 +77,15 @@ Futures:
     - Code concepts bowl
 * Assignment:
     - Code:
-        - Use at least 3 of the programming concepts and at least 1 relationship of information
-        - Follow the d3 set up tutorial
+        - Code with at least 3 of the programming concepts and at least 1 relationship of information
     - Design: visualisation techniques bowl
     - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
-    - Read: [CODING TUTORIALS]
+    - Read: [D3 PREP TUTORIALS]
 
-### Day 3
+## Part B
+* Draw with data in d3, experiment
+
+### March 16
 * Focus: drawing with data (1)
 * Lecture: 
     - Review: assignment
@@ -88,7 +94,7 @@ Futures:
 * Exercises:
     - Shapes with data
 
-### Day 4
+### March 17
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
@@ -100,7 +106,7 @@ Futures:
 * Assignment:
     - Code: make 3 variations of data-based-shapes
 
-### Day 5:
+### March 19
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
@@ -113,7 +119,10 @@ Futures:
     - Design: integrate inspiration in your process, draw, tell the story
     - Code: make your own time-based visualisation
 
-### Day 6:
+## Part C
+* Mini-project development
+
+### March 23
 * Focus: project
 * Lecture: 
     - Review: assignments
@@ -125,7 +134,7 @@ Futures:
 * Assignment:
     - Visualisation project choice 
 
-### Day 7:
+### March 24
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -138,7 +147,7 @@ Futures:
     - Theory: use other tools to analyse your dataset
     - Design: draw at least 7 variations of how to communicate your data
 
-### Day 8:
+### March 26
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -149,7 +158,7 @@ Futures:
 * Assignment:
     - Re-make project plan
 
-### Day 9:
+### March 27
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -160,7 +169,10 @@ Futures:
     - Design: assistance
     - Theory: fulfill template
 
-### Day 10:
+## Part D
+* Finessing
+
+### March 30
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -171,7 +183,7 @@ Futures:
     - Design: assistance
     - Theory: fulfill template
 
-### Day 11:
+### March 31
 * Focus: presentation
 * Lecture: 
     - Summary
@@ -180,6 +192,7 @@ Futures:
 * Assignment:
     - Prepare for presentations
 
-### Presentations:
+### April 3
+* Focus: presentations
 * Prep: template
 
