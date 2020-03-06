@@ -37,7 +37,7 @@ Futures:
 * Keep your blog up to date with the work you did in-class and/or in the assignments.
 
 ## Resources
-* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/resources.md)
+* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
 
 ## Student Work
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
