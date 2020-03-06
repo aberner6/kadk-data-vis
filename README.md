@@ -8,9 +8,24 @@ In this course we will
 
 ## Brief:
 In this course (2020), we focus on 
+
+CYCLES
+SEASONALITY
+REPETITION
+https://www.one-tab.com/page/m8kHrFp9TeWStPVb79QUUQ
+
 Data:
 Climate:
 Futures:
+DATA
+environmental + social layer
+SSP pathways
+boundaries
+
+TOPIC
+explore past present futures environments
+explore human survival depends on planet survival britt wray
+which futures where 
 
 ## Main Topics:  
 * Interactive data visualisation
@@ -53,10 +68,10 @@ We will timebox, which means that we will get to wherever we get to within each 
 ### March 10
 * Focus: Warm up
 * Lecture: 
-    - Overview: introductions + class structure 
-    - Code: the web + our coding environment
+    - Overview: introductions (to [me](https://www.one-tab.com/page/nY8VhXY0RG6tMer25MqiGw) and you), class structure 
+    - Theory: processes
     - Design: why visualise + inspiration 
-    - Theory: data visualisation processes
+    - Code: the web, our coding environment, html/css/js
 * Exercises: 
     - Analog data collection, analysis, visualisation
 * Assignment:
@@ -69,7 +84,7 @@ We will timebox, which means that we will get to wherever we get to within each 
         - What its goal seems to be
     - Read: [The Philosophy of Data](https://www.nytimes.com/2013/02/05/opinion/brooks-the-philosophy-of-data.html?_r=1&)
     - Extra: Watch [Amanda Cox](https://vimeo.com/29391942)
-    - Read: [HTML/CSS/JS TUTORIAL]
+    - Read: About [HTML/CSS/JS](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) depending on which one is weaker for you.
 
 ### March 12
 * Focus: visual encoding + programming concepts
@@ -136,7 +151,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Review: assignments
     - Code: types of visualisations (small multiples)
     - Design: drawing iterations and testing
-    - Theory: how to plan a project
+    - Theory: the brief + how to plan a project
 * Exercises:
     - Small multiples
     - Code concepts bowl 5
