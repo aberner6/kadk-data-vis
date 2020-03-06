@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- this is the standard way to declare your document type. it must be the first thing in the document. -->
+<html>
+<!-- surrounds all HTML content -->
+    <head>
+	<!-- contains all metadata about the site, such as references to stylesheets and scripts -->
+		<title>Day 1</title>
+		<!-- the title of the page -->
+		<link rel="stylesheet" href="style.css">
+		<!-- this is how we pull in the styles -->
+	</head>
+
+	<body>
+	<!-- everything not in the head. this is what can be visible. -->
+		<h1>Top level heading</h1>
+		<h2>Next level heading</h2>
+		<p>This would be a paragraph</p>
+		<div id="viz">This is where we append our SVG and therefore visualisation</div>
+		<img src="markup.png">
+		<!-- in case you didn't notice, these are comments. they are not visible -->
+		<!-- this whole document is created with tags - that is the definition of marking up - a tag is <something>content</something> -->
+	</body>
+	<script src = "main.js"></script>
+	<!-- this is how we pull in the javascript needs to be down here so it can mess with the html elements above it -->
+</html>

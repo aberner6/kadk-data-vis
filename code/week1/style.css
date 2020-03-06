@@ -1,0 +1,16 @@
+body {
+	background-color: beige; 
+	color: blue;
+}
+div {
+	background-color: red; 
+	font-size: 24px; 
+	font-weight: bold; 
+	color: white;
+}
+img {
+	width: 300px;
+	/*each element can have different properties, for example, "width"*/
+	/*for each property, you can put different values*/
+	/*these are all of the properties and possible values each property carries: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference*/
+}
