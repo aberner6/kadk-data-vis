@@ -43,6 +43,10 @@ Futures:
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
 
 # Schedule
+Every day, we will go through some variation of: 
+* inspiration - review - code - design - theory - exercises - wrap-up
+We will timebox, which means that we will get to wherever we get to within each topic/day and some may roll over into the next or some may be achieved more quickly in which case we will move forward
+
 ## Part A
 * Warm up to the class, topic and technique
 
@@ -64,6 +68,7 @@ Futures:
         - How you think they built it
         - What its goal seems to be
     - Read: [The Philosophy of Data](https://www.nytimes.com/2013/02/05/opinion/brooks-the-philosophy-of-data.html?_r=1&)
+    - Extra: Watch [Amanda Cox](https://vimeo.com/29391942)
     - Read: [HTML/CSS/JS TUTORIAL]
 
 ### March 12
@@ -74,7 +79,7 @@ Futures:
     - Design: communication, visual encoding, data-based relationships, right visualisation for "this" data, for "this" audience
     - Theory: perception
 * Exercises:
-    - Code concepts bowl
+    - Code concepts bowl 1
 * Assignment:
     - Code:
         - Code with at least 3 of the programming concepts and at least 1 relationship of information
@@ -93,6 +98,7 @@ Futures:
     - Theory: ethics + data collection
 * Exercises:
     - Shapes with data
+    - Code concepts bowl 2
 
 ### March 17
 * Focus: drawing with data (2)
@@ -103,6 +109,7 @@ Futures:
     - Theory: ethics + data visualisation
 * Exercises:
     - Shapes with scales
+    - Code concepts bowl 3
 * Assignment:
     - Code: make 3 variations of data-based-shapes
 
@@ -114,6 +121,7 @@ Futures:
     - Design: the role of inspiration, divergent thinking
 * Exercises:
     - Time-based visualisation
+    - Code concepts bowl 4
 * Assignment:
     - Theory: research your dataset
     - Design: integrate inspiration in your process, draw, tell the story
@@ -131,6 +139,7 @@ Futures:
     - Theory: how to plan a project
 * Exercises:
     - Small multiples
+    - Code concepts bowl 5
 * Assignment:
     - Visualisation project choice 
 
