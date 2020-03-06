@@ -60,7 +60,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Exercises: 
     - Analog data collection, analysis, visualisation
 * Assignment:
-    - Admin: set up blog + code spots
+    - Admin: set up blog + [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop)
     - Design: post your work from the analog data exercise
     - Theory: find one inspiration and post the link on your blog with a discussion of: 
         - Why it inspires you
