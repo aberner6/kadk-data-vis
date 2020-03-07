@@ -47,15 +47,16 @@ which futures where
 * Expect to ask for and give help.
 * Breaks are good. Take as many water, stretching and bathroom breaks as you need
 
-## Documentation:  
+## Documentation & Communication:  
 * Turn your assignments in by Monday every week.
-* Keep your blog up to date with the work you did in-class and/or in the assignments.
-
-## Resources
-* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
+* Keep your blog and github up to date with the work you did in-class and/or in the assignments.
+* Join our class [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg) to easily chat and help one another with small things.
 
 ## Student Work
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
+
+## Resources
+* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
 
 # Schedule
 Every day, we will go through some variation of: 
@@ -75,7 +76,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Exercises: 
     - Analog data collection, analysis, visualisation
 * Assignment:
-    - Admin: set up blog + [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop)
+    - Admin: set up blog + [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop) + sign in to our [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg)
     - Design: post your work from the analog data exercise
     - Theory: find one inspiration and post the link on your blog with a discussion of: 
         - Why it inspires you
