@@ -3,29 +3,16 @@ Taught by [Annelie Berner](http://www.annelieberner.com/) at the [The Royal Dani
 
 March 10 - April 3rd, 2020  
 
-## Description:  
-In this course we will 
+## Description:
+Visualization is an increasingly important part of making sense of our highly networked, data-rich world. Using a combination of interpretive methods and representational techniques, we will explore various ways visualization can make invisible relationships, structures and stories visible. We will learn how to extend the capabilities of ordinary perception to tell stories and draw insight from information. 
 
-## Brief:
-In this course (2020), we focus on 
+We will use analog and digital techniques to practice creating compelling interactive data visualizations using a variety of data. We will learn how to collect, classify, encode, and display data and use interactivity to construct relationships and meaning. The course will involve drawing, prototyping, and programming using data.
 
-CYCLES
-SEASONALITY
-REPETITION
-https://www.one-tab.com/page/m8kHrFp9TeWStPVb79QUUQ
+Along the way, we will also learn about the principles and processes of data visualisation, how to develop small projects, tell stories with data, the ethics of working with data, use web programming technologies to express ourselves. 
 
-Data:
-Climate:
-Futures:
-DATA
-environmental + social layer
-SSP pathways
-boundaries
+We will focus our data visualisations on the topics of cycles, seasonality, repetition, and time in relation to the environment, changing climate, and ecosystem. We will use data about the past, present and future of our environment. 
 
-TOPIC
-explore past present futures environments
-explore human survival depends on planet survival britt wray
-which futures where 
+Part A will be a warm-up and introduction to the topics of design, data, programming, getting set up and familiar with our topic. Part B will focus on playing and experimenting with data visualisation. Part C and D will focus on mini-project development, finessing and communication. 
 
 ## Main Topics:  
 * Interactive data visualisation
@@ -36,6 +23,8 @@ which futures where
 * Storytelling
 * Visual encoding
 * Data and Ethics
+* Seasonality, patterns, time
+* Climate, environment, ecosystem
 
 ## Our Expectations:  
 * Each week's plan and the accompanying assignments will shift slightly to accommodate the pace of the learners.
@@ -48,9 +37,10 @@ which futures where
 * Breaks are good. Take as many water, stretching and bathroom breaks as you need
 
 ## Documentation & Communication:  
-* Turn your assignments in by Monday every week.
+* Turn your assignments in before Monday morning at 9 a.m. every week.
 * Keep your blog and github up to date with the work you did in-class and/or in the assignments.
 * Join our class [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg) to easily chat and help one another with small things.
+* In the afternoons, I will be sitting at KADK but not always in the same room as you - depending on what we are all working on. You can always book me for office hours [here](https://kadk-data-vis.youcanbook.me/).
 
 ## Student Work
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
@@ -88,20 +78,18 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Read: About [HTML/CSS/JS](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) depending on which one is weaker for you.
 
 ### March 12
-* Focus: visual encoding + programming concepts
+* Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
     - Review: discuss inspirations + reading
-    - Code: check the set-up, programming concepts, d3 concepts
-    - Design: communication, visual encoding, data-based relationships, right visualisation for "this" data, for "this" audience
-    - Theory: perception
+    - Code: check the set-up, start d3/svg/data binding
+    - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
-    - Code concepts bowl 1
+    - Code concepts bowl
 * Assignment:
-    - Code:
-        - Code with at least 3 of the programming concepts and at least 1 relationship of information
-    - Design: visualisation techniques bowl
+    - Sketch: sketch at least 6 ideas by hand. Make at least 1 of them into a Dear Data style postcard with the legend of exactly how each data point is represented visually.  
+    - Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
     - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
-    - Read: [D3 PREP TUTORIALS]
+    - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)
 
 ## Part B
 * Draw with data in d3, experiment
@@ -110,8 +98,8 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Focus: drawing with data (1)
 * Lecture: 
     - Review: assignment
-    - Code: drawing with svg, binding data, selections, shapes
-    - Theory: ethics + data collection
+    - Code: more drawing with svg, binding data, selections, shapes, scales
+    - Theory: perception, ethics + data visualisation
 * Exercises:
     - Shapes with data
     - Code concepts bowl 2
@@ -120,9 +108,9 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
-    - Code: scales, troubleshooting
+    - Code: more scales, troubleshooting
     - Design: visualisation process, storytelling
-    - Theory: ethics + data visualisation
+    - Theory: ethics + data collection
 * Exercises:
     - Shapes with scales
     - Code concepts bowl 3

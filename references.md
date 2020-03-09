@@ -7,6 +7,7 @@
 * [Aesthetic Information Collages](https://drive.google.com/file/d/1hoYPHfmQQu4ljT44agmUPOLa0N6LX0_FBA9ldbLMDkHtmD4K2azyfLAVV1_GSZD8MvLXtrskGSNLMdmW/edit)
 * [The State of the Union](https://www.slideshare.net/visualisingdata/the-state-of-the-union-2019-by-andy-kirk)
 * [The Design of Time](https://www.slideshare.net/visualisingdata/the-design-of-time-by-andy-kirk)
+* [Dear Data](https://fivethirtyeight.com/features/dear-data-and-fivethirtyeight-want-you-to-visualize-your-podcast-habits/)
 
 # PROGRAMMING
 ## Mantras:
@@ -19,12 +20,6 @@
 All of these are from Plubius Syrus.(42 B.C.)
 
 # TUTORIALS
-## D3:
-* [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
-* [Founder of d3](https://bost.ocks.org/mike/)
-    * [Selections](https://bost.ocks.org/mike/join/)
-    * [Deep Dive into Selections](https://bost.ocks.org/mike/selection/)
-
 ## WEB:
 * [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
@@ -39,6 +34,16 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Web page / website / web server / search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 * [All things web](https://developer.mozilla.org/en-US/docs/Learn/Common_questions)
 
+## D3:
+* [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
+* [Change log](https://github.com/d3/d3/releases)
+* [Founder of d3](https://bost.ocks.org/mike/)
+    * [Thinking with Joins](https://bost.ocks.org/mike/join/)
+    * [Deep Dive into Selections](https://bost.ocks.org/mike/selection/)
+
+## SVG:
+* [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
+
 # DATA:
 ### Dealing with Data
 * [Mr Data Converter](https://shancarter.github.io/mr-data-converter/)
@@ -49,7 +54,10 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Demos](https://observablehq.com/@agness/introdv-f18-demo-1-data-select-scale)
 
 # VISUALISATION:
-* [General Resources](https://www.visualisingdata.com/resources/)
+* [General Resources](https://www.visualisingdata.com/resources/)]
+* [Choosing the right chart](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+* [Storytelling](http://napa-cards.net/)
+* [Design process](https://designsprintkit.withgoogle.com/methodology/overview)
 
 # DATA VISUALISATION
 ### Data and Journalism
@@ -79,6 +87,7 @@ General:
     * [Immigration](http://www.storiesbehindaline.com/)
     * [Exhibitions](https://www.moma.org/interactives/exhibitions/2012/inventingabstraction/?artist=65)
     * [Creativity](https://podio.com/site/creative-routines)
+    * [A year of hand-drawn data visualisation](http://www.dear-data.com/all)
 
 ### Data and Art
 * [Tega Brain](http://tegabrain.com)
