@@ -33,22 +33,22 @@ const circle = canvas //take the canvas
 
 //but what about the data... ?
 //shall we make one circle per data point?
-const circles = canvas //take the canvas
+const circ1 = canvas //take the canvas
 	.append("circle") //add a circle
 	.attr("cx", 10)
-	.attr("cy", 20)
+	.attr("cy", 50)
 	.attr("r", 12)
 	.attr("fill", "pink");
-const circles = canvas //take the canvas
+const circ2 = canvas //take the canvas
 	.append("circle") //add a circle
-	.attr("cx", 20)
-	.attr("cy", 20)
+	.attr("cx", 40)
+	.attr("cy", 50)
 	.attr("r", 25)
 	.attr("fill", "pink");
-const circles = canvas //take the canvas
+const circ3 = canvas //take the canvas
 	.append("circle") //add a circle
-	.attr("cx", 30)
-	.attr("cy", 20)
+	.attr("cx", 70)
+	.attr("cy", 50)
 	.attr("r", 38)
 	.attr("fill", "pink");
 //this is getting annoying!
@@ -59,7 +59,7 @@ const dataDots = canvas.selectAll("circle") //hey we want some elements
 	.data(dataset) //we want them to go with the data
 	.enter().append("circle") //specifically these should be SVG circle shapes
 	.attr("cx", 20) //and these are their attributes
-	.attr("cy", 30)
+	.attr("cy", 100)
 	.attr("r", 10)
 	.attr("fill", "blue");
 //in the console, inspect the elements... 
@@ -81,15 +81,15 @@ const dataDots = canvas.selectAll("circle") //hey we want some elements
 
 //that was cool, but now we need to spread them out...
 //how?
-const dots = canvas.selectAll("circle")
+const dots = canvas.selectAll("dots")
 	.data(dataset)
 	.enter().append("circle")
 	.attr("cx", function(d, i){
-		return 10+i*5;
+		return 20+i*10;
 	})
-	.attr("cy", 20)
-	.attr("r", 10)
+	.attr("cy", 200)
+	.attr("r", 5)
 	.attr("fill", "blue");
-
+//what about SEEING the data? like we did by hand above?
 
 
