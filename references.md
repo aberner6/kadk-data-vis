@@ -29,7 +29,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [CSS properties / values](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 )
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* [Local server](http://www.andyjamesdavies.com/javascript/simple-http-server-on-mac-os-x-in-seconds)
+* [Setting up a local server (mac or PC)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 * [Set up your own website (not on your local server)](https://pages.github.com/)
 * [Web page / website / web server / search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 * [All things web](https://developer.mozilla.org/en-US/docs/Learn/Common_questions)
