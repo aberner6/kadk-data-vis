@@ -1,6 +1,9 @@
 # Interactive Data Visualisation
 Taught by [Annelie Berner](http://www.annelieberner.com/) at the [The Royal Danish Academy of Fine Arts](https://kadk.dk/en/programme/visuelt-design) 
 
+Contact:
+a.berner@ciid.dk
+
 March 10 - April 3rd, 2020  
 
 ## Description:
@@ -37,8 +40,8 @@ Part A will be a warm-up and introduction to the topics of design, data, program
 * Breaks are good. Take as many water, stretching and bathroom breaks as you need
 
 ## Documentation & Communication:  
-* Turn your assignments in before Monday morning at 9 a.m. every week.
-* Keep your blog and github up to date with the work you did in-class and/or in the assignments.
+* Turn your assignments in before each morning class as indicated on each assignment deadline.
+* Keep your blog/slack post to assignments and github up to date with the work you did in-class and/or in the assignments.
 * Join our class [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg) to easily chat and help one another with small things.
 * In the afternoons, I will be sitting at KADK but not always in the same room as you - depending on what we are all working on. You can always book me for office hours [here](https://kadk-data-vis.youcanbook.me/).
 
@@ -65,10 +68,10 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Code: the web, our coding environment, html/css/js
 * Exercises: 
     - Analog data collection, analysis, visualisation
-* Assignment:
-    - Admin: set up blog + [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop) + sign in to our [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg)
+* Assignment: due before Thursday at 9 a.m.
+    - Admin: set up blog or if you prefer, you can simply plan to post on our slack channel "#assignments". Post your code on your [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop) + sign in to our [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg)
     - Design: post your work from the analog data exercise
-    - Theory: find one inspiration and post the link on your blog with a discussion of: 
+    - Theory: find one data visualisation inspiration for you (could be digital, art, a piece of nature like tree rings) and post the link or a photo with a discussion of: 
         - Why it inspires you
         - Who it is for
         - How you think they built it

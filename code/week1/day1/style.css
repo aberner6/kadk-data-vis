@@ -2,11 +2,14 @@ body {
 	background-color: beige; 
 	color: blue;
 }
-div {
+#viz {
 	background-color: red; 
 	font-size: 24px; 
 	font-weight: bold; 
 	color: white;
+}
+#tbd{
+	background-color: grey;
 }
 img {
 	width: 300px;
