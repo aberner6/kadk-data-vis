@@ -77,6 +77,10 @@ Climate-focused:
     * [Duarte's design](https://en.wikipedia.org/wiki/An_Inconvenient_Truth)
     * [Water](https://www.scientificamerican.com/article/water-in-water-out/)
     * [Wind](https://www.fastcompany.com/90379158/the-fascinating-thing-our-airports-reveal-about-the-natural-world)
+    * [Phenology Clock](https://mapmaker-manifesto.tumblr.com/post/101321497879/12-phenology-clock-natalie-jeremijenko-the)
+    * [Ice Watch](https://olafureliasson.net/archive/artwork/WEK109190/ice-watch)
+    * [Jupiter Calendar](https://www.behance.net/gallery/60883469/-Jupiter-Calendar)
+    * [In the Air](http://intheair.es/index.html)
 General:
     * [Inspired by nature](http://pmcruz.com/dendrochronology/)
     * [Visual Cinnamon's work](https://www.visualcinnamon.com/portfolio/)
