@@ -83,13 +83,13 @@ We will timebox, which means that we will get to wherever we get to within each 
 ### March 12
 * Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
-    - Review: discuss inspirations + reading
-    - Code: check the set-up, start d3/svg/data binding
+    - Review: discuss inspirations, assignment, reading
+    - Code: check the set-up, check [github](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository), start d3/svg/data binding
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
-    - Code concepts bowl
+    - Play with data: make at least 3 variations on our original sketch (week1 / day2). Look up other SVG shapes and try to implement them. 
 * Assignment:
-    - Sketch: sketch at least 6 ideas by hand. Make at least 1 of them into a Dear Data style postcard with the legend of exactly how each data point is represented visually.  
+    - Sketch: sketch at least 6 ideas by hand. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.  
     - Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
     - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
     - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)

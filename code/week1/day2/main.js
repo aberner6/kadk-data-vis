@@ -10,7 +10,7 @@ const accessor = dataset[0];
 
 //can we check that by default?
 //console.log is the way to immediately check what's going on
-console.log(dataset[0]); 
+console.log(accessor); 
 
 //where shall we put this data?
 //we need to make a canvas
@@ -24,7 +24,7 @@ const canvas = d3.select("#wrapper") //grab this element with the idea of wrappe
 	//this could be done a little more smartly - that's for next time
 
 //we can now draw on the canvas
-const circle = canvas //take the canvas
+const oneCircle = canvas //take the canvas
 	.append("circle") //add a circle
 	.attr("cx", 10)
 	.attr("cy", 10)
@@ -81,7 +81,7 @@ const dataDots = canvas.selectAll("circle") //hey we want some elements
 
 //that was cool, but now we need to spread them out...
 //how?
-const dots = canvas.selectAll("dots")
+const dataDots2 = canvas.selectAll("dots")
 	.data(dataset)
 	.enter().append("circle")
 	.attr("cx", function(d, i){
