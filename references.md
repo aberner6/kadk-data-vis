@@ -24,9 +24,6 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
 * [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
-    - [About the arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
-    - [Dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-    - [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [General reference on HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS properties / values](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 )
@@ -34,6 +31,13 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Set up your own website (not on your local server)](https://pages.github.com/)
 * [Web page / website / web server / search engine?](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines)
 * [All things web](https://developer.mozilla.org/en-US/docs/Learn/Common_questions)
+
+## JAVASCRIPT:
+* [Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* Advanced:
+    * [JS ES6 - about the arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+    * [Dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+    * [JS ES6 - variables](https://www.w3schools.com/js/js_es6.asp)
 
 ## D3:
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
@@ -81,6 +85,7 @@ Climate-focused:
     * [Ice Watch](https://olafureliasson.net/archive/artwork/WEK109190/ice-watch)
     * [Jupiter Calendar](https://www.behance.net/gallery/60883469/-Jupiter-Calendar)
     * [In the Air](http://intheair.es/index.html)
+    * [Ice Formations](https://www.lensculture.com/articles/ryota-kajita-ice-formations#slideshow)
 General:
     * [Inspired by nature](http://pmcruz.com/dendrochronology/)
     * [Visual Cinnamon's work](https://www.visualcinnamon.com/portfolio/)

@@ -101,11 +101,11 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Focus: drawing with data (1)
 * Lecture: 
     - Review: assignment
-    - Code: more drawing with svg, binding data, selections, shapes, scales
+    - Code: more svg, data formats, scales, and more ++
     - Theory: perception, ethics + data visualisation
 * Exercises:
-    - Shapes with data
-    - Code concepts bowl 2
+    - Shapes with scales
+    - Code concepts
 
 ### March 17
 * Focus: drawing with data (2)
@@ -113,10 +113,9 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Review: code concepts
     - Code: more scales, troubleshooting
     - Design: visualisation process, storytelling
-    - Theory: ethics + data collection
 * Exercises:
     - Shapes with scales
-    - Code concepts bowl 3
+    - Code concepts
 * Assignment:
     - Code: make 3 variations of data-based-shapes
 
@@ -128,7 +127,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Design: the role of inspiration, divergent thinking
 * Exercises:
     - Time-based visualisation
-    - Code concepts bowl 4
+    - Code concepts
 * Assignment:
     - Theory: research your dataset
     - Design: integrate inspiration in your process, draw, tell the story
