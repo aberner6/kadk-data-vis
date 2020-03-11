@@ -49,7 +49,7 @@ Part A will be a warm-up and introduction to the topics of design, data, program
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
 
 ## Resources
-* Resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
+* References and resource list [here](https://github.com/aberner6/kadk-data-vis/blob/master/references.md)
 
 # Schedule
 Every day, we will go through some variation of: 
@@ -71,7 +71,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Assignment: due before Thursday at 9 a.m.
     - Admin: set up blog or if you prefer, you can simply plan to post on our slack channel "#assignments". Post your code on your [github account](https://help.github.com/en/desktop/getting-started-with-github-desktop/creating-your-first-repository-using-github-desktop) + sign in to our [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg)
     - Design: post your work from the analog data exercise
-    - Theory: find one data visualisation inspiration for you (could be digital, art, a piece of nature like tree rings) and post the link or a photo with a discussion of: 
+    - Theory: find one data visualisation inspiration for you (could be digital, art, a piece of nature like tree rings) - feel free to use the [references page](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) where there are many inspirations - and post the link or a photo with a discussion of: 
         - Why it inspires you
         - Who it is for
         - How you think they built it
