@@ -28,11 +28,11 @@ NOTE: As we will all be on video calls for many hours, feel free to simply mute 
 7. Guidance: Remains the same: sign up for "office hours" with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
 8. Peer-to-peer learning: We will stay on google hangouts when working on in-class exercises. Therefore, feel free to simply un-mute yourself and ask someone a question just as you would in the class at any point. Also, PLEASE post any questions, code issues, thoughts in slack. 
 9. Materials: 
-    a. Lectures: After each lecture-day, I will post a PDF of my slides on slack. 
-    b. Code: I will also continue to post all relevant code on github. Make sure you can pull my updates to your local repository. Tutorial [here](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository) 
-    c. Handouts: When there are handouts for you to read, I will upload them in a handouts folder or share links to them in slack. 
-    d. References: The [reference page](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) is constantly being updated with new inspiration, talks, readings, code tutorials, etc. Please check it on a daily basis. 
-    e. Syllabus + Homework Assignments: I will keep the [syllabus and assignments page](https://github.com/aberner6/kadk-data-vis/) - both contained here on our main website - up to date with class structures as well as due dates (as they evolve). Please check it before each class.
+    * Lectures: After each lecture-day, I will post a PDF of my slides on slack. 
+    * Code: I will also continue to post all relevant code on github. Make sure you can pull my updates to your local repository. Tutorial [here](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository) 
+    * Handouts: When there are handouts for you to read, I will upload them in a handouts folder or share links to them in slack. 
+    * References: The [reference page](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) is constantly being updated with new inspiration, talks, readings, code tutorials, etc. Please check it on a daily basis. 
+    * Syllabus + Homework Assignments: I will keep the [syllabus and assignments page](https://github.com/aberner6/kadk-data-vis/) - both contained here on our main website - up to date with class structures as well as due dates (as they evolve). Please check it before each class.
 
 ## Description:
 Visualization is an increasingly important part of making sense of our highly networked, data-rich world. Using a combination of interpretive methods and representational techniques, we will explore various ways visualization can make invisible relationships, structures and stories visible. We will learn how to extend the capabilities of ordinary perception to tell stories and draw insight from information. 
