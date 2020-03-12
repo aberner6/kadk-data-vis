@@ -8,16 +8,24 @@ March 10 - April 3rd, 2020
 
 ## Online Plan
 As we cannot be in the same location for the next 2 weeks, we will follow this plan for how to continue the learning:
+
 1. Communication: I will send important updates on the #general channel on slack. You can always also reach me at a.berner@ciid.dk or +45 50 21 27 65
-2. Lectures: Join me on google hangouts at 9 a.m. during our course days
-3. In-class exercises: Stay on google hangouts. Use slack to post about programming questions in the #code channel. Ping me directly about any personal questions as you work. 
+
+2. New location: 
+To join the video meeting, click this link: https://meet.google.com/wfw-ofqr-irx
+Otherwise, to join by phone, dial +45 70 71 41 20 and enter this PIN: 195 549 041#
+To view more phone numbers, click this link: https://tel.meet/wfw-ofqr-irx?hl=en-419&hs=5
+
+3. Lectures: Join me on our google hangout at 9 a.m. during our course days (check below for the course day list)
+
+4. In-class exercises: Stay on google hangouts. Use slack to post about programming questions in the #code channel. Ping me directly about any personal questions as you work. 
 
 NOTE: As we will all be on video calls for many hours, feel free to simply mute yourself so that the sound coming from all our devices do not make too much audio chaos :) I prefer that you keep your video cameras ON as much as possible because this also helps me to see whether you are physically available (I can ask you a question or ask for your input) or whether you may have gone to another room for water, etc. 
 
-4. Homework: Remains the same. I will review your work once you post it in the #assignments channel.
-5. Guidance: Remains the same: sign up for "office hours" with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
-6. Peer-to-peer learning: We will stay on google hangouts when working on in-class exercises. Therefore, feel free to simply un-mute yourself and ask someone a question just as you would in the class at any point. Also, PLEASE post any questions, code issues, thoughts in slack. 
-7. Materials: 
+5. Homework: Remains the same. I will review your work once you post it in the #assignments channel.
+6. Guidance: Remains the same: sign up for "office hours" with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
+7. Peer-to-peer learning: We will stay on google hangouts when working on in-class exercises. Therefore, feel free to simply un-mute yourself and ask someone a question just as you would in the class at any point. Also, PLEASE post any questions, code issues, thoughts in slack. 
+8. Materials: 
     a. Lectures: After each lecture-day, I will post a PDF of my slides on slack. 
     b. Code: I will also continue to post all relevant code on github. Make sure you can pull my updates to your local repository. Tutorial [here](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository) 
     c. Handouts: When there are handouts for you to read, I will upload them in a handouts folder or share links to them in slack. 
@@ -98,7 +106,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Extra: Watch [Amanda Cox](https://vimeo.com/29391942)
     - Read: About [HTML/CSS/JS](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) depending on which one is weaker for you.
 
-### Day 2
+### March 16 Day 2
 * Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
     - Review: discuss inspirations, assignment, reading
@@ -115,7 +123,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 ## Part B
 * Draw with data in d3, experiment
 
-### Day 3
+### March 17 Day 3
 * Focus: drawing with data (1)
 * Lecture: 
     - Review: assignment
@@ -125,7 +133,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Shapes with scales
     - Code concepts
 
-### Day 4
+### March 19 Day 4
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
@@ -137,7 +145,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Assignment:
     - Code: make 3 variations of data-based-shapes
 
-### Day 5
+### March 20 Day 5
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
@@ -154,7 +162,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 ## Part C
 * Mini-project development
 
-### Day 6
+### March 23 Day 6
 * Focus: project
 * Lecture: 
     - Review: assignments
@@ -167,7 +175,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Assignment:
     - Visualisation project choice 
 
-### Day 7
+### March 24 Day 7
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -180,7 +188,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Theory: use other tools to analyse your dataset
     - Design: draw at least 7 variations of how to communicate your data
 
-### Day 8
+### March 26 Day 8
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -191,7 +199,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Assignment:
     - Re-make project plan
 
-### Day 9
+### March 27 Day 9
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -205,7 +213,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 ## Part D
 * Finessing
 
-### Day 10
+### March 30 Day 10
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -216,7 +224,7 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Design: assistance
     - Theory: fulfill template
 
-### Day 11
+### March 31 Day 11
 * Focus: presentation
 * Lecture: 
     - Summary
@@ -225,7 +233,7 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Assignment:
     - Prepare for presentations
 
-### Day 12
+### April 3 Day 12
 * Focus: presentations
 * Prep: template
 
