@@ -25,7 +25,7 @@ To view more phone numbers, click this link: https://tel.meet/wfw-ofqr-irx?hl=en
 NOTE: As we will all be on video calls for many hours, feel free to simply mute yourself so that the sound coming from all our devices do not make too much audio chaos :) I prefer that you keep your video cameras ON as much as possible because this also helps me to see whether you are physically available (I can ask you a question or ask for your input) or whether you may have gone to another room for water, etc. 
 
 6. Homework: Remains the same. I will review your work once you post it in the #assignments channel.
-7. Guidance: Remains the same: sign up for "office hours" with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
+7. Guidance: Remains the same: sign up for [office hours](https://calendly.com/a-berner/kadk-office-hours) with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
 8. Peer-to-peer learning: We will stay on google hangouts when working on in-class exercises. Therefore, feel free to simply un-mute yourself and ask someone a question just as you would in the class at any point. Also, PLEASE post any questions, code issues, thoughts in slack. 
 9. Materials: 
     * Lectures: After each lecture-day, I will post a PDF of my slides on slack. 
@@ -71,7 +71,7 @@ Part A will be a warm-up and introduction to the topics of design, data, program
 * Turn your assignments in before each morning class as indicated on each assignment deadline.
 * Keep your blog/slack post to assignments and github up to date with the work you did in-class and/or in the assignments.
 * Join our class [slack channel](https://join.slack.com/t/kadk-data-vis/shared_invite/zt-cgw2xpjl-rdazZK9PXAZmEBm_qW1Ugg) to easily chat and help one another with small things.
-* In the afternoons, I will be sitting at KADK but not always in the same room as you - depending on what we are all working on. You can always book me for office hours [here](https://kadk-data-vis.youcanbook.me/).
+* In the afternoons, I will be sitting at KADK but not always in the same room as you - depending on what we are all working on. You can always book me for office hours [here](https://calendly.com/a-berner/kadk-office-hours).
 
 ## Student Work
 * We will have weekly assignments that are relevant to material from the previous class. These assignments are required and you should be prepared to show/talk about them in class. It is expected that everyone in the class will create and maintain a blog for their assignments. Feel free to use your preferred platform for the blog - for example, tumblr. You can also make your own "blog-like" spot - for example, google slides, docs, etc. - as long as it is online.
