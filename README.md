@@ -125,7 +125,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part B
 * Draw with data in d3, experiment
 
-### March 16 Day 2
+### Monday March 16 Day 2
 * Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
     - Review: discuss inspirations, assignment, reading
@@ -134,21 +134,21 @@ The below work is due by end of day (17h) Friday, March 13.
 * Exercises:
     - Play with data: make at least 3 variations on our original sketch (week1 / day2). Look up other SVG shapes and try to implement them. 
 
-### March 17 Day 3
+### Tuesday March 17 Day 3
 * Focus: drawing with data (1)
 * Lecture: 
     - Review: assignment
-    - Code: more svg, data formats, scales, and more ++
+    - Code: scope + variable, data formats + loading data, scales ++
     - Theory: perception, ethics + data visualisation
 * Exercises:
     - Shapes with scales
     - Code concepts
 
-### March 19 Day 4
+### Thursday March 19 Day 4
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
-    - Code: more scales, troubleshooting
+    - Code: SVG + more shapes, drawing with data + comparison, conditionals, logic
     - Design: visualisation process, storytelling
 * Exercises:
     - Shapes with scales
@@ -161,7 +161,7 @@ The below work is due by end of day (17h) Friday, March 13.
     - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)
  -->
 
-### March 20 Day 5
+### Friday March 20 Day 5
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
@@ -178,7 +178,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part C
 * Mini-project development
 
-### March 23 Day 6
+### Monday March 23 Day 6
 * Focus: project
 * Lecture: 
     - Review: assignments
@@ -191,7 +191,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Visualisation project choice 
 
-### March 24 Day 7
+### Tuesday March 24 Day 7
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -204,7 +204,7 @@ The below work is due by end of day (17h) Friday, March 13.
     - Theory: use other tools to analyse your dataset
     - Design: draw at least 7 variations of how to communicate your data
 
-### March 26 Day 8
+### Thursday March 26 Day 8
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -215,7 +215,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Re-make project plan
 
-### March 27 Day 9
+### Friday March 27 Day 9
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -229,7 +229,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part D
 * Finessing
 
-### March 30 Day 10
+### Monday March 30 Day 10
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -240,7 +240,7 @@ The below work is due by end of day (17h) Friday, March 13.
     - Design: assistance
     - Theory: fulfill template
 
-### March 31 Day 11
+### Tuesday March 31 Day 11
 * Focus: presentation
 * Lecture: 
     - Summary
@@ -249,7 +249,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Prepare for presentations
 
-### April 3 Day 12
+### Friday April 3 Day 12
 * Focus: presentations
 * Prep: template
 
