@@ -28,9 +28,9 @@ All of these are from Plubius Syrus.(42 B.C.)
 
 # TUTORIALS
 ## WEB:
-* [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+* [HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML) or [Video-based HTML/CSS Tutorial](https://www.khanacademy.org/computing/computer-programming/html-css)
 * [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
-* [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) or [Video-based Javascript tutorial](https://www.khanacademy.org/computing/computer-programming/html-css-js/html-css-js-intro/a/review-javascript)
 * [General reference on HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [CSS properties / values](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 )

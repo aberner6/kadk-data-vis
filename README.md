@@ -106,6 +106,15 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Extra: Watch [Amanda Cox](https://vimeo.com/29391942)
     - Read: About [HTML/CSS/JS](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) depending on which one is weaker for you.
 
+### March 13 Homework
+1. Please watch at least 3 of the videos in the references page.   
+2. If you have not already done so, make sure that you can get [updates from our github repository](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository).
+3. Check out the video tutorials on HTML, CSS and Javascript. These are in the "Tutorials" section of the [references page](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#tutorials). If you already know this very well, then take a look at a code-concept in the [Javascript-specific area](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#javascript)
+* DELIVERABLES:
+    1. Write on #assignments with your favorite quotation and something you learned from at least 1 of the videos. 
+    2. Write me a direct message on slack that you were able / unable to get updates on our github repository.  
+    3. Write on the #assignments channel on slack with one key term from the coding tutorials that you do understand better and one key term from the coding tutorials you still don't understand. For example: "I still don't understand the key term of variable. I understand the key term of conditionals like <="
+
 ### March 16 Day 2
 * Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
