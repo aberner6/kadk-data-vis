@@ -64,7 +64,8 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [General Resources](https://www.visualisingdata.com/resources/)]
 * [Choosing the right chart 1](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
 * [Choosing the right chart 2](https://www.data-to-viz.com/#explore)
-* [Storytelling](http://napa-cards.net/)
+* [Storytelling 1](http://napa-cards.net/)
+* [Storytelling 2](https://www.visualcinnamon.com/2014/12/using-data-storytelling-with-chord.html)
 * [Design process](https://designsprintkit.withgoogle.com/methodology/overview)
 
 # DATA VISUALISATION
@@ -92,6 +93,7 @@ Climate-focused:
 General:
     * [Inspired by nature](http://pmcruz.com/dendrochronology/)
     * [Visual Cinnamon's work](https://www.visualcinnamon.com/portfolio/)
+    * [Chord Diagram Storytelling](https://nbremer.github.io/Chord-Diagram-Storytelling/)
     * [The Road](http://distantshape.com/the_road.html)
     * [Explore](https://observablehq.com/@d3/brushable-scatterplot-matrix)
     * [Stefanie Posavec's work](http://www.stefanieposavec.com/writing-without-words)
