@@ -107,13 +107,21 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Read: About [HTML/CSS/JS](https://github.com/aberner6/kadk-data-vis/blob/master/references.md) depending on which one is weaker for you.
 
 ### March 13 Homework
+The below work is due by end of day (17h) Friday, March 13.
+
 1. Please watch at least 3 of the videos in the references page.   
+
 2. If you have not already done so, make sure that you can get [updates from our github repository](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository).
+
 3. Check out the video tutorials on HTML, CSS and Javascript. These are in the "Tutorials" section of the [references page](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#tutorials). If you already know this very well, then take a look at a code-concept in the [Javascript-specific area](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#javascript)
-* DELIVERABLES:
+
+* DELIVERABLES: due by 17h Friday, March 13
     1. Write on #assignments with your favorite quotation and something you learned from at least 1 of the videos. 
     2. Write me a direct message on slack that you were able / unable to get updates on our github repository.  
     3. Write on the #assignments channel on slack with one key term from the coding tutorials that you do understand better and one key term from the coding tutorials you still don't understand. For example: "I still don't understand the key term of variable. I understand the key term of conditionals like <="
+
+## Part B
+* Draw with data in d3, experiment
 
 ### March 16 Day 2
 * Focus: visual encoding, getting started with d3/svg/data binding
@@ -123,14 +131,6 @@ We will timebox, which means that we will get to wherever we get to within each 
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
     - Play with data: make at least 3 variations on our original sketch (week1 / day2). Look up other SVG shapes and try to implement them. 
-* Assignment:
-    - Sketch: sketch at least 6 ideas by hand. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.  
-    - Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
-    - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
-    - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)
-
-## Part B
-* Draw with data in d3, experiment
 
 ### March 17 Day 3
 * Focus: drawing with data (1)
@@ -151,8 +151,13 @@ We will timebox, which means that we will get to wherever we get to within each 
 * Exercises:
     - Shapes with scales
     - Code concepts
-* Assignment:
-    - Code: make 3 variations of data-based-shapes
+* Assignment: TBD
+    <!-- - Code: make 3 variations of data-based-shapes -->
+<!--     - Sketch: sketch at least 6 ideas by hand. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.  
+    - Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
+    - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
+    - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)
+ -->
 
 ### March 20 Day 5
 * Focus: drawing with data (3)
