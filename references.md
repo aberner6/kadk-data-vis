@@ -9,6 +9,13 @@
 * [The Design of Time](https://www.slideshare.net/visualisingdata/the-design-of-time-by-andy-kirk)
 * [Dear Data](https://fivethirtyeight.com/features/dear-data-and-fivethirtyeight-want-you-to-visualize-your-podcast-habits/)
 
+# TALKS
+* [Amanda Cox: Truer than True](https://vimeo.com/133608685)
+* [Nadieh Bremer: Visualising Connections](https://vimeo.com/354276689)
+* [Giorgia Lupi and Stefanie Posavec: Dear Data](https://vimeo.com/133608605)
+* [Mimi Onuoha: How We Became Machine Readable](https://vimeo.com/233011125)
+* [Josh Begley: Setting Tangents Around A Circle](https://vimeo.com/176869833)
+
 # PROGRAMMING
 ## Mantras:
 (from [ITP / James](https://github.com/ITPNYU/ICM-2019-Media))
