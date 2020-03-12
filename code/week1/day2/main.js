@@ -96,6 +96,11 @@ const dataset = [12, 25, 38];
 //wait but there are selected elements that don't exist?
 //and then we add them to data and then add the shapes again?
 
+//BREAK IT DOWN
+// svg.selectAll("circle") at first returns "empty" state, because no circles exist yet.
+// selection.data joins the data with our selected (empty) elements, returning a new selection that represents the "update selection": elements successfully bound to data. The enter (and exit) selections are defined under this, which we use to add or remove elements to correspond to the data.
+// selection.enter gets us the enter selection,
+// and finally missing elements are added by calling selection.append on the enter selection. This adds a new circle for each data point to the SVG container.
 
 
 

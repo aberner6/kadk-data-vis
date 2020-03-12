@@ -34,10 +34,12 @@ All of these are from Plubius Syrus.(42 B.C.)
 
 ## JAVASCRIPT:
 * [Overview](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-* Advanced:
-    * [JS ES6 - about the arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+* Code concepts:
+    * [Promises / async functions](https://www.youtube.com/watch?v=QO4NXhWo_NM)
+    * [The arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) or this video from favorite explainer, Dan Shiffman [video](https://www.youtube.com/watch?v=mrYMzpbFz18)
     * [Dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-    * [JS ES6 - variables](https://www.w3schools.com/js/js_es6.asp)
+    * [Variables: var, const, let](https://www.w3schools.com/js/js_es6.asp) or from Dan Shiffman [video](https://www.youtube.com/watch?v=q8SHaDQdul0)
+    * [Reduce](https://www.youtube.com/watch?v=-LFjnY1PEDA)
 
 ## D3:
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
@@ -60,7 +62,8 @@ All of these are from Plubius Syrus.(42 B.C.)
 
 # VISUALISATION:
 * [General Resources](https://www.visualisingdata.com/resources/)]
-* [Choosing the right chart](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+* [Choosing the right chart 1](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
+* [Choosing the right chart 2](https://www.data-to-viz.com/#explore)
 * [Storytelling](http://napa-cards.net/)
 * [Design process](https://designsprintkit.withgoogle.com/methodology/overview)
 
