@@ -11,7 +11,7 @@ As we cannot be in the same location for the next 2 weeks, we will follow this p
 
 1. Communication: I will send important updates on the #general channel on slack. You can always also reach me at a.berner@ciid.dk or +45 50 21 27 65
 
-2. New location: 
+2. "Location": We will meet on google hangouts from 9 a.m. to 4 p.m. (excluding lunch and coffee, water breaks) on each class day. 
 To join the video meeting, click this link: https://meet.google.com/wfw-ofqr-irx
 Otherwise, to join by phone, dial +45 70 71 41 20 and enter this PIN: 195 549 041#
 To view more phone numbers, click this link: https://tel.meet/wfw-ofqr-irx?hl=en-419&hs=5
