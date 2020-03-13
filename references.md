@@ -8,6 +8,11 @@
 * [The State of the Union](https://www.slideshare.net/visualisingdata/the-state-of-the-union-2019-by-andy-kirk)
 * [The Design of Time](https://www.slideshare.net/visualisingdata/the-design-of-time-by-andy-kirk)
 * [Dear Data](https://fivethirtyeight.com/features/dear-data-and-fivethirtyeight-want-you-to-visualize-your-podcast-habits/)
+* [Visual Information-Seeking Mantra](https://drum.lib.umd.edu/bitstream/handle/1903/466/CS-TR-3665.pdf?sequence=2)
+* [Automating the Design of Graphical Presentations of Relational Information](https://research.tableau.com/sites/default/files/p110-mackinlay.pdf)
+* [39 Studies of Human Perception in 30 minutes](https://www.zcfy.cc/original/39-studies-about-human-perception-in-30-minutes)
+* [Graphical perception - learn the basics first](https://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/)
+* [Basic rules for making charts and graphs](https://flowingdata.com/2010/07/22/7-basic-rules-for-making-charts-and-graphs/)
 
 # TALKS
 * [Amanda Cox: Truer than True](https://vimeo.com/133608685)
@@ -54,6 +59,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Founder of d3](https://bost.ocks.org/mike/)
     * [Thinking with Joins](https://bost.ocks.org/mike/join/)
     * [Deep Dive into Selections](https://bost.ocks.org/mike/selection/)
+    * [Scales](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
 
 ## SVG:
 * [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
@@ -74,6 +80,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Storytelling 1](http://napa-cards.net/)
 * [Storytelling 2](https://www.visualcinnamon.com/2014/12/using-data-storytelling-with-chord.html)
 * [Design process](https://designsprintkit.withgoogle.com/methodology/overview)
+* [Color picker](https://projects.susielu.com/viz-palette)
 
 # DATA VISUALISATION
 ### Data and Journalism

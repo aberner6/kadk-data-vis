@@ -132,6 +132,9 @@ for that we need SCALES.*/
 what are scales?
 a scale is a function that converts values between two domains.
 like on a map: the physical space is scaled down to fit on a map you can hold!
+there are a few different kinds of scales depending on the incoming data.
+today we will work with the linear scale - good for quantitative data
+another day we will work with the ordinal scale - good for categorical data
 
 so what is the "physical space" we are scaling? 
 it is the information that should fit in our canvas. 

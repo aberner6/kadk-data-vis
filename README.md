@@ -128,7 +128,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ### Monday March 16 Day 2
 * Focus: visual encoding, getting started with d3/svg/data binding
 * Lecture: 
-    - Review: discuss inspirations, assignment, reading
+    - Review: discuss inspirations, assignments, reading
     - Code: check the set-up, check [github](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository), start d3/svg/data binding
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
@@ -137,9 +137,9 @@ The below work is due by end of day (17h) Friday, March 13.
 ### Tuesday March 17 Day 3
 * Focus: drawing with data (1)
 * Lecture: 
-    - Review: assignment
-    - Code: scope + variable, data formats + loading data, scales ++
-    - Theory: perception, ethics + data visualisation
+    - Review: code concepts
+    - Code: scope + variables, data formats + loading data, scales ++
+    - Design: visualisation process, storytelling
 * Exercises:
     - Shapes with scales
     - Code concepts
@@ -148,8 +148,8 @@ The below work is due by end of day (17h) Friday, March 13.
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
-    - Code: SVG + more shapes, drawing with data + comparison, conditionals, logic
-    - Design: visualisation process, storytelling
+    - Code: charts + containers, labels, axes, SVG + more shapes, drawing with data + comparison, conditionals, logic
+    - Theory: perception, ethics + data visualisation
 * Exercises:
     - Shapes with scales
     - Code concepts
