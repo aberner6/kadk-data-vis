@@ -5,54 +5,89 @@ overall, we'll need a title at least
 
 inside, we need a general container for the viz
 the viz has to fit:
-- axes and labels
+- title, axes and labels
 - visualisation itself
 
 so... let's re-do our canvas a bit
 
-*/
+PART 1: CHARTS
++ containers, labels, axes*/
 
 async function drawData() {
+/*step 1: load data*/
 	const dataset = await d3.csv("./../../forest.csv")
 	const accessor = dataset[0];
 	console.log(accessor);
 
 	const radius = 5;
 	const color = "#e0f3f3";
-	
-	const screenSize = d3.min([
+
+/*step 2: prepare dimensions
+the width / height is the same as before
+but now we organise our margins more efficiently
+and take into account the margins when using the width and height
+this is so that we don't mess around inside the scale functions themselves
+that will mean fewer issues / places to look and troubleshoot or solve when we are trying to style the surrounding information of the viz
+*/
+
+	const width = d3.min([
 		window.innerWidth * 0.9,
 		window.innerHeight * 0.9,
 	])
+	let dimensions = {
+	width: width,
+	height: width,
+	    margin: {
+	      top: 200,
+	      right: 50,
+	      bottom: 50,
+	      left: 200,
+	    },
+	}
+	dimensions.boundedWidth = dimensions.width
+	- dimensions.margin.left
+	- dimensions.margin.right
+	dimensions.boundedHeight = dimensions.height
+	- dimensions.margin.top
+	- dimensions.margin.bottom
 
-	const width = screenSize;
-	const height = screenSize;
+/*step 3: create canvas
+now we will establish a general wrapper that holds the whole viz
+as well as a specific, bounded canvas that holds the stuff we want to be able to see
+this will take into account the margins we want to set the viz off from the edges of the screen
+*/
+  const wrapper = d3.select("#wrapper")
+    .append("svg")
+      .attr("width", dimensions.width)
+      .attr("height", dimensions.height);
 
-	const margin = radius*4;
+  const bounds = wrapper.append("g")
+      .style("transform", `translate(${
+        dimensions.margin.left
+      }px, ${
+        dimensions.margin.top
+      }px)`);
 
-	const canvas = d3.select("#wrapper") //grab this element with the idea of wrapper
-		.append("svg") //add an SVG canvas
-		.attr("width", width) //of this width
-		.attr("height", height); //and this height
-
+/*step 4: create scales
+same as before, but now we can just use the bounded edges 
+instead of computing those edges inside the scale function
+*/
 	const xDomain = function(d){
 		return d.year;
 	}
-	console.log(d3.extent(dataset, xDomain)+"min and max years");
 	const xScale = d3.scaleLinear() 
 		.domain(d3.extent(dataset, xDomain)) 
-		.range([margin, width-margin]) //minimum and maximum pixels we want to map for radius
+		.range([0, dimensions.boundedWidth]) //minimum and maximum pixels we want to map for radius
 
 	const foDomain = function(d){
 		return d.forest;
 	}
-	console.log(d3.extent(dataset, foDomain)+"min and max forest");
-
 	const yScale = d3.scaleLinear() 
 		.domain(d3.extent(dataset, foDomain)) 
-		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
+		.range([dimensions.boundedHeight, 0]) //min goes almost at bottom, max goes almost at top
 
-	const foCircles = canvas.selectAll("foc")
+/*step 5: draw data*/
+	const foCircles = bounds.selectAll("foc")
 		.data(dataset)
 		.enter().append("circle")
 		.attr("cx", function(d,i){
@@ -66,36 +101,44 @@ async function drawData() {
 		.attr("stroke", "black")
 		.attr("opacity",.2) //let's see how many overlaps we have?
 
-/*PART 1: LABELS, AXES, CONTAINERS*/
-	const xAxisGenerator = d3.axisBottom() //x axis on the bottom please
-		.scale(xScale) //use the same scale we set up for the dots
-
-	const xAxis = canvas.append("g") //add a spot and add the axes
-       	.attr("transform", "translate("+margin*4+","+(height-margin)+")")
+/*LABELS, AXES*/
+/*step 6: draw labels and axes
+here we just need to do some translation and positioning of the information
+so that it fits properly at the edges of our visualisation
+*/
+	const xAxisGenerator = d3.axisBottom() 
+		.scale(xScale) 
+	const xAxis = bounds.append("g")
 		.call(xAxisGenerator)
+		.style("transform", `translateY(${dimensions.boundedHeight}px)`)
 
 	const xAxisLabel = xAxis.append("text") //also labels
-		.attr("x", width / 2)
-		.attr("y", height/2)
+		.attr("x", dimensions.boundedWidth / 2)
+		.attr("y", dimensions.margin.bottom - 10)
 		.attr("fill", "black")
 		.style("font-size", "1.4em")
-		.html("Dew point (&deg;F)")
+		.html("Years")
 
-	const yAxisGenerator = d3.axisLeft() //y axis is for left side
-		.scale(yScale) //same scale as we were using
-
-	const yAxis = canvas.append("g")
-       	.attr("transform", "translate("+margin*4+","+0+")")
+	const yAxisGenerator = d3.axisLeft()
+		.scale(yScale) 
+	const yAxis = bounds.append("g")
 		.call(yAxisGenerator)
 
 	const yAxisLabel = yAxis.append("text")
-		.attr("x", 0)
-		.attr("y", 0)
+		.attr("x", -dimensions.boundedWidth / 2)
+		.attr("y", -dimensions.margin.left/4)
 		.attr("fill", "black")
 		.style("font-size", "1.4em")
-		.text("Relative humidity")
+		.text("Growth")
 		.style("transform", "rotate(-90deg)")
 		.style("text-anchor", "middle")
+
+	const title = bounds.append("text")
+		.attr("x", -dimensions.margin.left/2)
+		.attr("y", -dimensions.margin.top/2)
+		.attr("fill", "black")
+		.style("font-size", "1.4em")
+		.text("Trees")
 }
 drawData();
 
