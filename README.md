@@ -138,7 +138,19 @@ The below work is due by end of day (17h) Friday, March 13.
     - Code: check the set-up, check [github](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository), start d3/svg/data binding
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
-    - Play with data: make at least 3 variations on our original sketch (week1 / day2). Look up other SVG shapes and try to implement them. 
+    - Code: play with data: make at least 3 variations on our original code (week2 / monday). 
+        - For example:
+            + Variation 1: Do exactly the same as what we already have in our code but change the color of the circles.
+            + Variation 2: Use your data from your analog data visualisation. How many circles are there now?
+            + Variation 3: Try making the data inform the x position, the color, the y position, the radius. Can you figure something out?
+            + Variation 4: Try applying more styling to your SVG shapes and/or HTML page and/or canvas. For example, try adding some text into your HTML body. Just to understand how things are working together.
+            + Variation 5: Can you figure out how to work with rectangles or lines instead of circles? Look up the ["rect"](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) and ["line"](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line) reference on SVG website and experiment.
+    - Read at least one of the following three links about how d3 creates magic with selections and binding data:
+        1. [Thinking with Joins](https://bost.ocks.org/mike/join/)
+        2. [3 little circles](https://bost.ocks.org/mike/circles/)
+        3. [In depth: Selections](https://bost.ocks.org/mike/selection/) 
+    - Deliverables: 
+        - Post at least 1 screenshot of whatever you were able to make in your experiment. If possible, share the code that built it (via your own github page or over slack).
 
 ### Tuesday March 17 Day 3
 * Focus: drawing with data (1)
