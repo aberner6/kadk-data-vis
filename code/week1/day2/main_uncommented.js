@@ -54,3 +54,16 @@ const dataDots2 = canvas.selectAll("dots")
 	.attr("cy", 200)
 	.attr("r", 5)
 	.attr("fill", "blue");
+
+const dataDots3 = canvas.selectAll("dotsData")
+	.data(dataset)
+	.enter().append("circle")
+	.attr("cx", function(d, i){
+		console.log(i+"index");
+		return 20+i*70; 
+	})
+	.attr("cy", 200)
+	.attr("r", function(d){
+		return d;
+	})
+	.attr("fill", "blue");	
