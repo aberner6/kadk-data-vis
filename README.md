@@ -26,6 +26,7 @@ NOTE 1: As we will all be on video calls for many hours, feel free to simply mut
 
 NOTE 2: I understand that for some of you, the online classroom does not work because of the already-constraining situations of staying home. In that case, please be aware of the following:
 * I will record all my lectures (though will still do them each morning) if possible (depending on storage space)
+    - Access them [here](https://www.dropbox.com/sh/13uo9zyjgh7vlrk/AABTGtGiMLXolhmTVTK0_2vca?dl=0)
 * You’re welcome to just listen in without video on
 * I’m happy to have devoted chat-times with you instead of calls to help figure out code issues as you continue to work
 
