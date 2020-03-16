@@ -153,7 +153,9 @@ const dataDots2 = canvas.selectAll("dots")
 	.attr("r", function(d){
 		return d;
 	})
-	.attr("fill", "blue");
+	.attr("fill", function(d){
+		return d3.rgb(d*6,255,255); //we will do this properly tomorrow or thursday
+	});
 
 
 

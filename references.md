@@ -63,6 +63,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Scales](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
 * [Shapes](https://www.d3indepth.com/shapes/)
 * [Arcs](https://github.com/d3/d3-shape#arcs)
+* [Color reference](https://github.com/d3/d3-scale-chromatic/blob/master/README.md)
 
 ## SVG:
 * [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
