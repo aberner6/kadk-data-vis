@@ -22,7 +22,12 @@ To view more phone numbers, click this link: https://tel.meet/wfw-ofqr-irx?hl=en
 
 5. In-class exercises: Stay on google hangouts. Use slack to post about programming questions in the #code channel. Ping me directly about any personal questions as you work. 
 
-NOTE: As we will all be on video calls for many hours, feel free to simply mute yourself so that the sound coming from all our devices do not make too much audio chaos :) I prefer that you keep your video cameras ON as much as possible because this also helps me to see whether you are physically available (I can ask you a question or ask for your input) or whether you may have gone to another room for water, etc. 
+NOTE 1: As we will all be on video calls for many hours, feel free to simply mute yourself so that the sound coming from all our devices do not make too much audio chaos :) I prefer that you keep your video cameras ON as much as possible because this also helps me to see whether you are physically available (I can ask you a question or ask for your input) or whether you may have gone to another room for water, etc. 
+
+NOTE 2: I understand that for some of you, the online classroom does not work because of the already-constraining situations of staying home. In that case, please be aware of the following:
+* I will record all my lectures (though will still do them each morning) if possible (depending on storage space)
+* You’re welcome to just listen in without video on
+* I’m happy to have devoted chat-times with you instead of calls to help figure out code issues as you continue to work
 
 6. Homework: Remains the same. I will review your work once you post it in the #assignments channel.
 7. Guidance: Remains the same: sign up for [office hours](https://calendly.com/a-berner/kadk-office-hours) with me or ping me at any time during our course days for extra help, project mentorship, brainstorms, troubleshooting. 
