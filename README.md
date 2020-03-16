@@ -149,8 +149,8 @@ The below work is due by end of day (17h) Friday, March 13.
         1. [Thinking with Joins](https://bost.ocks.org/mike/join/)
         2. [3 little circles](https://bost.ocks.org/mike/circles/)
         3. [In depth: Selections](https://bost.ocks.org/mike/selection/) 
-    - Deliverables: 
-        - Post at least 1 screenshot of whatever you were able to make in your experiment. If possible, share the code that built it (via your own github page or over slack).
+    - Deliverable: 
+        - Post at least 1 screenshot of whatever you were able to make in your variation on our original code from the morning. If possible, share the code that built it (via your own github page or over slack).
 
 ### Tuesday March 17 Day 3
 * Focus: drawing with data (1)

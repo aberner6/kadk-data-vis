@@ -13,6 +13,7 @@
 * [39 Studies of Human Perception in 30 minutes](https://www.zcfy.cc/original/39-studies-about-human-perception-in-30-minutes)
 * [Graphical perception - learn the basics first](https://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/)
 * [Basic rules for making charts and graphs](https://flowingdata.com/2010/07/22/7-basic-rules-for-making-charts-and-graphs/)
+* [Data gathering to make data art](https://medium.com/@blprnt/sounding-the-bow-628f92beb0b7)
 
 # TALKS
 * [Amanda Cox: Truer than True](https://vimeo.com/133608685)
