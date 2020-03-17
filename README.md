@@ -175,14 +175,14 @@ The below work is due by end of day (17h) Friday, March 13.
 
 ### Wednesday March 18 Day 4
 * Sketch: 
-1. Look through the forest data yourself and consider if there are any patterns or unusual aspects of it. Count the dimensions of the data (we have just two :) forest and years). (Sidenote: if you want to continue with your own analog data, you can do that instead of the forest data. Let me know if you need help making it into a csv or anything).
-2. Put your computer aside and grab a paper and pen.
-3. Sketch at least 6 ideas by hand:
-    * Brainstorm through sketching how each dimension will be visualised (for example: dimension of years is on the x axis, dimension of forest area is on the y axis).
-    * Brainstorm through sketching different shapes you will use to represent the data. Will you show the data through the size of the shape, its position, or both, etc?
-4. By hand, sketch a few of the data points in your intended visualisation (for example: what will 3 of the data points look like?) 
-5. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.
-6. Put your sketching to one side and pick up your computer again.
+    1. Look through the forest data yourself and consider if there are any patterns or unusual aspects of it. Count the dimensions of the data (we have just two :) forest and years). (Sidenote: if you want to continue with your own analog data, you can do that instead of the forest data. Let me know if you need help making it into a csv or anything).
+    2. Put your computer aside and grab a paper and pen.
+    3. Sketch at least 6 ideas by hand:
+        * Brainstorm through sketching how each dimension will be visualised (for example: dimension of years is on the x axis, dimension of forest area is on the y axis).
+        * Brainstorm through sketching different shapes you will use to represent the data. Will you show the data through the size of the shape, its position, or both, etc?
+    4. By hand, sketch a few of the data points in your intended visualisation (for example: what will 3 of the data points look like?) 
+    5. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.
+    6. Put your sketching to one side and pick up your computer again.
 
 * Code: Try to code at least 1 of your ideas - or simplify it down to build on an example from class. 
     * If this is easy, make at least 3 variations of different ways to visualise the same data. 
