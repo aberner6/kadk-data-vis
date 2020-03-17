@@ -61,6 +61,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Thinking with Joins](https://bost.ocks.org/mike/join/)
 * [Deep Dive into Selections](https://bost.ocks.org/mike/selection/)
 * [Scales](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
+* [Scales 2](https://www.d3indepth.com/scales/)
 * [Shapes](https://www.d3indepth.com/shapes/)
 * [Arcs](https://github.com/d3/d3-shape#arcs)
 * [Color reference](https://github.com/d3/d3-scale-chromatic/blob/master/README.md)
@@ -121,6 +122,7 @@ General:
     * [Exhibitions](https://www.moma.org/interactives/exhibitions/2012/inventingabstraction/?artist=65)
     * [Creativity](https://podio.com/site/creative-routines)
     * [A year of hand-drawn data visualisation](http://www.dear-data.com/all)
+    * [Visualising Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 ### Data and Art
 * [Tega Brain](http://tegabrain.com)

@@ -10,18 +10,21 @@ we already saw the array and how to access it:*/
 
 /*now let's see object-based data:*/
 // const obj = [
-//       {key:'coffee', value: 2},
-//       {key:'music', value: 8},
-//       {key:'bike', value: 5},
-//       {key:'read', value: 0}
+// 	{key:'coffee', value: 2},
+// 	{key:'music', value: 8},
+// 	{key:'bike', value: 5},
+// 	{key:'read', value: 0},
+// 	{key:'listen', value: 10}
 // ]
-// const accessor = obj[0].key;
+// const accessor = obj;
 // console.log(accessor);
+
+
 
 /*and we can load csvs - from our local folder or from online*/
 // async function drawData() {
 // 	const dataset = await d3.csv("./../../forest.csv")
-// 	const accessor = dataset[0];
+// 	const accessor = dataset[0].forest;
 // 	console.log(accessor);
 // }
 // drawData()
@@ -30,7 +33,9 @@ await is a JavaScript keyword that will pause the execution of a function until 
 this will only work within an async function — note that the drawData() function declaration is preceded by the keyword async
 for now, just follow my lead. if you want to dig deep, there are videos on the reference page
 */
-/*let's load - JSON!*/
+/*let's load - JSON!
+JavaScript Object Notation
+*/
 // async function drawData() {
 // 	const dataset = await d3.json("./../../weather_data.json")
 // 	const accessor = dataset[0];
@@ -48,7 +53,7 @@ ok, enough with the loading data. let's do something with it
 let's use the forest dataset we already found out how to load*/
 // async function drawData() {
 // 	const dataset = await d3.csv("./../../forest.csv")
-// 	const accessor = dataset[0];
+// 	const accessor = dataset[0].forest;
 // 	console.log(accessor);
 
 // 	const width = 1200;
@@ -61,7 +66,6 @@ let's use the forest dataset we already found out how to load*/
 
 // 	const radius = 5;
 // 	const color = "#e0f3f3";
-
 // }
 // drawData();
 /*when moving to the next block, comment the above two lines out and re-instate
@@ -70,7 +74,7 @@ so we don't have to copy past the canvas and data call many many times
 
 /*PART 3.1: DATA?
 and let's draw something on it, WITH our data!*/
-// 	const foCircles = canvas.selectAll("foc")
+// 	const forestCircles = canvas.selectAll("foC")
 // 		.data(dataset)
 // 		.enter().append("circle")
 // 		.attr("cx", 10)
@@ -83,15 +87,16 @@ and let's draw something on it, WITH our data!*/
 
 /*PART 3.2: DATA?
 wait they are all overlapping. this happened before...*/
-// 	const foCircles = canvas.selectAll("foc")
+// 	const forestCircles = canvas.selectAll("foC")
 // 		.data(dataset)
 // 		.enter().append("circle")
 // 		.attr("cx", function(d,i){
+// 			// console.log(i+" index "+d.forest+" forest category data "+d.year+" year");
 // 			return 10+10*i; //one per data point, so we need i (as in index)
 // 		})
 // 		.attr("cy", 10)
 // 		.attr("r", radius)
-// 		.attr("fill", color);
+// 		.attr("fill", "blue");
 // }
 // drawData();
 
@@ -105,11 +110,11 @@ ok but we want to see the NUMBERS*/
 // 			return 10+10*i; //one per data point, so we need i (as in index)
 // 		})
 // 		.attr("cy", 10)
-// 		.attr("r", function(d,i){
-// 			console.log(d.forest);
+// 		.attr("r", function(d){
 // 			return d.forest;
 // 		})
-// 		.attr("fill", color);	
+// 		.attr("fill", color)
+// 		.attr("stroke","black")	
 // }
 // drawData();
 
@@ -118,9 +123,11 @@ ok but we want to see the NUMBERS*/
 /*BREAK: WHAT DO WE WANT TO SEE? DRAW IT ON PAPER
 space things out nicely. make the circles fit.
 how should the data be shown? 
-example: the data should be shown through the radius of the circles and how many circles there are
+example: the data should be shown through the radius of the circles 
+and how many circles there are
 every piece of data should be represented as a circle
-every circle's radius should get bigger if it represents bigger data and smaller if it represents smaller data
+every circle's radius should get bigger if it represents bigger data 
+and smaller if it represents smaller data
 the circles should be spaced out evenly along the x axis
 they should be placed on the same y location across the page
 for that we need SCALES.*/
@@ -148,7 +155,8 @@ the domain: the minimum and maximum input values
 the range: the minimum and maximum output values
 
 let’s start with the domain. 
-we’ll need to create an array of the smallest and largest numbers our y axis will need to handle
+we’ll need to create an array of the smallest and largest numbers 
+our axis will need to handle
 in this case the lowest and highest forest levels in our dataset.
 */
 
@@ -160,15 +168,15 @@ it takes the whole dataset and finds the min and max
 let's set it up.
 first we need to have a function to access the area of the data we want to check
 in our case, it is the "forest" column which holds the forest data*/
-// 	const foDomain = function(d){
+// 	const forestDomain = function(d){
 // 		return d.forest;
 // 	}
-// 	console.log(d3.extent(dataset, foDomain));
-
+// 	console.log(d3.extent(dataset, forestDomain));
+// 	const minMax = d3.extent(dataset, forestDomain);
 // 	const rScale = d3.scaleLinear() 
-// 		.domain(d3.extent(dataset, foDomain)) 
-// 		.range([1, 20]) //minimum and maximum pixels we want to map for radius
-
+// 		.domain(minMax) 
+// 		.range([1, 100]) //minimum and maximum pixels we want to map for radius
+	
 // 	const foCircles = canvas.selectAll("foc")
 // 		.data(dataset)
 // 		.enter().append("circle")
@@ -177,10 +185,11 @@ in our case, it is the "forest" column which holds the forest data*/
 // 		})
 // 		.attr("cy", 100)
 // 		.attr("r", function(d){
-// 			// console.log(rScale(d.forest)); //so we can see its working
+// 			console.log(rScale(d.forest)); //so we can see its working
 // 			return rScale(d.forest);
 // 		})
-// 		.attr("fill", color);
+// 		.attr("fill", "blue")
+// 		.attr("opacity",".1")
 // }
 // drawData();
 
@@ -190,22 +199,24 @@ now lets check in on that x axis spacing.
 its done by guesswork and hardcoded so the numbers may be going off the screen
 SCALES to the rescue again :) 
 let's do year by year?*/
+	
+// 	const maxMappedRadius = 100;
+// 	const minMappedRadius = 5;
 // 	const xDomain = function(d){
 // 		return d.year;
 // 	}
 // 	console.log(d3.extent(dataset, xDomain)+"min and max years");
 // 	const xScale = d3.scaleLinear() 
 // 		.domain(d3.extent(dataset, xDomain)) 
-// 		.range([0, width]) //minimum and maximum pixels we want to map for radius
+// 		.range([maxMappedRadius, width-maxMappedRadius]) //minimum and maximum pixels we want to map for years
 
 // 	const foDomain = function(d){
 // 		return d.forest;
 // 	}
 // 	console.log(d3.extent(dataset, foDomain)+"min and max forest");
-
-// 	const rScale = d3.scaleLinear() 
+// 	const radiusScale = d3.scaleLinear() 
 // 		.domain(d3.extent(dataset, foDomain)) 
-// 		.range([1, 20]) //minimum and maximum pixels we want to map for radius
+// 		.range([minMappedRadius, maxMappedRadius]) //minimum and maximum pixels we want to map for radius
 
 // 	const foCircles = canvas.selectAll("foc")
 // 		.data(dataset)
@@ -215,9 +226,10 @@ let's do year by year?*/
 // 		})
 // 		.attr("cy", 100)
 // 		.attr("r", function(d){
-// 			return rScale(d.forest);
+// 			return radiusScale(d.forest);
 // 		})
-// 		.attr("fill", color);
+// 		.attr("fill", "blue")
+// 		.attr("opacity",.3)
 // }
 // drawData()	
 
@@ -237,7 +249,6 @@ according to their forest levels?*/
 // 		return d.forest;
 // 	}
 // 	console.log(d3.extent(dataset, foDomain)+"min and max forest");
-
 // 	const yScale = d3.scaleLinear() 
 // 		.domain(d3.extent(dataset, foDomain)) 
 // 		.range([height-50, 50]) //min goes almost at bottom, max goes almost at top
@@ -269,6 +280,13 @@ we want to use either the height or the width of the window, whichever one is sm
 to leave a little whitespace around the chart let's make it a touch smaller than that even
 the d3.min method helps us by getting the minimum of the array of items we pass it.
 note: we'll also add a consistent margin while we're at it
+alternate: 	
+	// const screenSize = d3.min([
+	// 	window.innerWidth * 0.9,
+	// 	window.innerHeight * 0.9,
+	// ])
+	// const width = screenSize;
+	// const height = screenSize;
 */
 // async function drawData() {
 // 	const dataset = await d3.csv("./../../forest.csv")
@@ -278,42 +296,54 @@ note: we'll also add a consistent margin while we're at it
 // 	const radius = 5;
 // 	const color = "#e0f3f3";
 	
-// 	const screenSize = d3.min([
-// 		window.innerWidth * 0.9,
-// 		window.innerHeight * 0.9,
-// 	])
-
-// 	const width = screenSize;
-// 	const height = screenSize;
+// 	const screenWidth = window.innerWidth * 0.9;
+// 	const screenHeight = window.innerHeight * 0.9;
 
 // 	const margin = radius*4;
 
 // 	const canvas = d3.select("#wrapper") //grab this element with the idea of wrapper
 // 		.append("svg") //add an SVG canvas
-// 		.attr("width", width) //of this width
-// 		.attr("height", height); //and this height
+// 		.attr("width", screenWidth) //of this width
+// 		.attr("height", screenHeight); //and this height
 // }
 // drawData();
 
 
 
 /*now let's draw our data again and see how good it looks!*/
+// async function drawData() {
+// 	const dataset = await d3.csv("./../../forest.csv")
+// 	const accessor = dataset[0];
+// 	console.log(accessor);
+
+	// const radius = 5;
+	// const color = "#e0f3f3";
+	
+	// const screenWidth = window.innerWidth * 0.9;
+	// const screenHeight = window.innerHeight * 0.9;
+
+	// const margin = radius*4;
+
+// 	const canvas = d3.select("#wrapper") //grab this element with the idea of wrapper
+// 		.append("svg") //add an SVG canvas
+// 		.attr("width", screenWidth) //of this width
+// 		.attr("height", screenHeight); //and this height
+
 // 	const xDomain = function(d){
 // 		return d.year;
 // 	}
 // 	console.log(d3.extent(dataset, xDomain)+"min and max years");
 // 	const xScale = d3.scaleLinear() 
 // 		.domain(d3.extent(dataset, xDomain)) 
-// 		.range([margin, width-margin]) //minimum and maximum pixels we want to map for radius
+// 		.range([margin, screenWidth-margin]) //minimum and maximum pixels we want to map for radius
 
 // 	const foDomain = function(d){
 // 		return d.forest;
 // 	}
 // 	console.log(d3.extent(dataset, foDomain)+"min and max forest");
-
 // 	const yScale = d3.scaleLinear() 
 // 		.domain(d3.extent(dataset, foDomain)) 
-// 		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
+// 		.range([screenHeight-margin, margin]) //min goes almost at bottom, max goes almost at top
 
 // 	const foCircles = canvas.selectAll("foc")
 // 		.data(dataset)
@@ -332,156 +362,9 @@ note: we'll also add a consistent margin while we're at it
 // drawData();
 
 
-
-/*PART 3.9: color 
-we can also work to encode the data through colors
-for example, the more forest, the brighter the color
-we can use HCL, HSV, RGB, for example:
-		.interpolate(d3.interpolateHcl)
-		.range([d3.rgb("#007AFF"), d3.rgb('#FFF500')]);
-or simply ask d3 to make a smooth color range based on our domain
-*/
-// async function drawData() {
-// 	const dataset = await d3.csv("./../../forest.csv")
-// 	const accessor = dataset[0];
-// 	console.log(accessor);
-
-// 	const radius = 5;
-// 	const color = "#e0f3f3";
-	
-// 	const screenSize = d3.min([
-// 		window.innerWidth * 0.9,
-// 		window.innerHeight * 0.9,
-// 	])
-
-// 	const width = screenSize;
-// 	const height = screenSize;
-
-// 	const margin = radius*4;
-
-// 	const canvas = d3.select("#wrapper") //grab this element with the idea of wrapper
-// 		.append("svg") //add an SVG canvas
-// 		.attr("width", width) //of this width
-// 		.attr("height", height); //and this height
-	
-// 	const xDomain = function(d){
-// 		return d.year;
-// 	}
-// 	console.log(d3.extent(dataset, xDomain)+"min and max years");
-// 	const xScale = d3.scaleLinear() 
-// 		.domain(d3.extent(dataset, xDomain)) 
-// 		.range([margin, width-margin]) //minimum and maximum pixels we want to map for radius
-
-// 	const foDomain = function(d){
-// 		return d.forest;
-// 	}
-// 	console.log(d3.extent(dataset, foDomain)+"min and max forest");
-// 	const yScale = d3.scaleLinear() 
-// 		.domain(d3.extent(dataset, foDomain)) 
-// 		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
-
-// 	const colScale = d3.scaleLinear()
-// 		.domain(d3.extent(dataset, foDomain)) 
-// 		.range(['beige', 'red']);
-
-// 	const foCircles = canvas.selectAll("foc")
-// 		.data(dataset)
-// 		.enter().append("circle")
-// 		.attr("cx", function(d,i){
-// 			return xScale(d.year);
-// 		})
-// 		.attr("cy", function(d){
-// 			return yScale(d.forest);
-// 		})
-// 		.attr("r", radius)
-// 		.attr("fill", function(d){
-// 			return colScale(d.forest);
-// 		})
-// 		.attr("stroke", "black")
-// 		.attr("opacity",.2) //let's see how many overlaps we have?
-// }
-// drawData();
-
-
-
-
-
-
-/*PART 3.91: Ordinal scales
-what about doing scales based on "ordinal" information?
-ordinal information is something like - fruits, cities, etc.
-can d3 understand these and map them to different colors, for example?
-yes!
-ordinal scales are for discrete input domains, such as names or categories.
-*/
-async function drawData() {
-	const dataset = await d3.csv("./../../oldestTrees.csv")
-	const accessor = dataset[0];
-	console.log(accessor);
-
-	const radius = 5;
-	
-	const screenSize = d3.min([
-		window.innerWidth * 0.9,
-		window.innerHeight * 0.9,
-	])
-
-	const width = screenSize;
-	const height = screenSize;
-
-	const margin = radius*4;
-
-	const canvas = d3.select("#wrapper") //grab this element with the idea of wrapper
-		.append("svg") //add an SVG canvas
-		.attr("width", width) //of this width
-		.attr("height", height); //and this height
-
-	const xScale = d3.scaleLinear() 
-		.domain([0, dataset.length]) 
-		.range([margin, width-margin]) //minimum and maximum pixels we want to map for radius
-	const foDomain = function(d){
-		return d.age;
-	}
-	const extent = d3.extent(dataset, foDomain);
-	console.log(extent)
-	const yScale = d3.scaleLinear() 
-		.domain(d3.extent(dataset, foDomain)) 
-		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
-
-
-	const cats = [];
-	function categories(){
-		for(var i=0; i<dataset.length; i++){
-			cats.push(dataset[i].species);
-		}
-	}
-	categories();
-	console.log(cats)
-
-	const colScale = d3.scaleOrdinal()
-		.domain([cats])
-		.range(d3.schemeAccent);
-
-	const foCircles = canvas.selectAll("foc")
-		.data(dataset)
-		.enter().append("circle")
-		.attr("cx", function(d,i){
-			return xScale(i);
-		})
-		.attr("cy", function(d){
-			return yScale(d.age);
-		})
-		.attr("r", radius)
-		.attr("fill", function(d){
-			return colScale(d.species);
-		});
-}
-drawData();
-
-
 /*
 PART 2: LOADING DATA
 + data structures
 PART 3: SCALES
-+ linear, ordinal, colors, min, max, canvas size
++ linear, min, max, canvas size
 */

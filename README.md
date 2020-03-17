@@ -136,7 +136,6 @@ The below work is due by end of day (17h) Friday, March 13.
 * Lecture: 
     - Review: discuss inspirations, assignments, reading
     - Code: check the set-up, check [github](https://help.github.com/en/github/using-git/getting-changes-from-a-remote-repository), start d3/svg/data binding
-    - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
     - Code: play with data: make at least 3 variations on our original code (week2 / monday). 
         - For example:
@@ -157,34 +156,54 @@ The below work is due by end of day (17h) Friday, March 13.
 * Lecture: 
     - Review: code concepts
     - Code: scope + variables, data formats + loading data, scales ++
-    - Design: visualisation process, storytelling
-* Exercises:
-    - Shapes with scales
-    - Code concepts
+* Exercises: play with data using scales: 
+    * Take our forest CSV. 
+    * Sketch at least 3 ideas for how to represent the data visually.
+    * Using a section of our code as a "starter", try to make your own variations. For example:
+        - What if each year-forest area were plotted on top of each other, where the circles overlap? Can you play with opacity and see something interesting?
+        - Can you work with color to show "thriving" forest vs. declining forest? 
+        - What if your visualisation takes over the whole canvas? 
+        - Close your eyes and think of trees. Are there other visual inspirations that come to mind? Can you incorporate them into your sketch somehow? Or sketch by hand and save for later?
+    * Keep track of the coding concepts that are clearer for you today. Keep track of the coding concepts that are confusing for you today. We will check through your lists on Friday. 
+    * If you want more tutorials, check:
+        * [Scales](https://medium.com/@mbostock/introducing-d3-scale-61980c51545f)
+        * [Shapes](https://www.d3indepth.com/shapes/)
+        * [Variables: var, const, let](https://www.w3schools.com/js/js_es6.asp) or from Dan Shiffman [video](https://www.youtube.com/watch?v=q8SHaDQdul0)
+        * [Promises / async functions](https://www.youtube.com/watch?v=QO4NXhWo_NM)
+    * Deliverable: 
+        - Post at least 1 screenshot of whatever you were able to make in your variation on our original code from the morning. If possible, share the code that built it (via your own github page or over slack).
 
-### Thursday March 19 Day 4
+### Wednesday March 18 Day 4
+Sketch: sketch at least 6 ideas by hand. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.
+        1. Look through the data yourself and consider if there are any patterns or unusual aspects of it. Count the dimensions of the data (we have just two :) forest and years).
+        2. Put your computer aside and grab a paper and pen.
+        3. Sketch at least 6 ideas by hand:
+            * Brainstorm through sketching how each dimension will be visualised (for example: dimension of years is on the x axis, dimension of forest area is on the y axis).
+            * Brainstorm through sketching different shapes you will use to represent the data. Will you show the data through the size of the shape, its position, or both, etc?
+        4. By hand, sketch a few of the data points in your intended visualisation (for example: what will 3 of the data points look like?) 
+        5. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.
+        6. Put your sketching to one side and pick up your computer again.
+Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
+    - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
+
+### Thursday March 19 Day 5
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: code concepts
     - Code: charts + containers, labels, axes, SVG + more shapes, drawing with data + comparison, conditionals, logic
-    - Theory: perception, ethics + data visualisation
+    - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
     - Shapes with scales
     - Code concepts
-* Assignment: TBD
-    <!-- - Code: make 3 variations of data-based-shapes -->
-<!--     - Sketch: sketch at least 6 ideas by hand. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.  
-    - Code: code at least 1 of your ideas - or simplify it down to build on an example from class. If this is easy, make at least 3 variations of different ways to visualise the same data. Keep track of your issues by listing them on the blog and / or sharing them in the slack coding channel. 
-    - Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
-    - Read: [Data joins and selections](https://bost.ocks.org/mike/join/)
- -->
+* Assignment:
 
-### Friday March 20 Day 5
+### Friday March 20 Day 6
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
     - Code: types of visualisations (time-based), math, "causation/correlation"
     - Design: the role of inspiration, divergent thinking
+    - Design: visualisation process, storytelling
 * Exercises:
     - Time-based visualisation
     - Code concepts
@@ -196,12 +215,12 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part C
 * Mini-project development
 
-### Monday March 23 Day 6
+### Monday March 23 Day 7
 * Focus: project
 * Lecture: 
     - Review: assignments
     - Code: types of visualisations (small multiples)
-    - Design: drawing iterations and testing
+    - Theory: perception, ethics + data visualisation
     - Theory: the brief + how to plan a project
 * Exercises:
     - Small multiples
@@ -209,12 +228,13 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Visualisation project choice 
 
-### Tuesday March 24 Day 7
+### Tuesday March 24 Day 8
 * Focus: project development
 * Lecture: 
     - Review: assignments
     - Code: types of visualisations (relational)
     - Design: labels, legends, layout
+    - Design: drawing iterations and testing
 * Exercises:
     - Relational visualisations
 * Assignment:
@@ -222,7 +242,10 @@ The below work is due by end of day (17h) Friday, March 13.
     - Theory: use other tools to analyse your dataset
     - Design: draw at least 7 variations of how to communicate your data
 
-### Thursday March 26 Day 8
+### Wednesday March 25 Day 9
+* Focus: project development
+
+### Thursday March 26 Day 10
 * Focus: project development
 * Lecture: 
     - Review: assignments
@@ -233,7 +256,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Re-make project plan
 
-### Friday March 27 Day 9
+### Friday March 27 Day 11
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -247,7 +270,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part D
 * Finessing
 
-### Monday March 30 Day 10
+### Monday March 30 Day 12
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -258,7 +281,7 @@ The below work is due by end of day (17h) Friday, March 13.
     - Design: assistance
     - Theory: fulfill template
 
-### Tuesday March 31 Day 11
+### Tuesday March 31 Day 13
 * Focus: presentation
 * Lecture: 
     - Summary
@@ -267,7 +290,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Prepare for presentations
 
-### Friday April 3 Day 12
+### Friday April 3 Day 16
 * Focus: presentations
 * Prep: template
 
