@@ -173,7 +173,7 @@ The below work is due by end of day (17h) Friday, March 13.
     * Deliverable: 
         - Post at least 1 screenshot of whatever you were able to make in your variation on our original code from the morning. If possible, share the code that built it (via your own github page or over slack).
 
-### Wednesday March 18 Day 4
+### Wednesday March 18
 * Sketch: 
     1. Look through the forest data yourself and consider if there are any patterns or unusual aspects of it. Count the dimensions of the data (we have just two :) forest and years). (Sidenote: if you want to continue with your own analog data, you can do that instead of the forest data. Let me know if you need help making it into a csv or anything).
     2. Put your computer aside and grab a paper and pen.
@@ -196,77 +196,73 @@ The below work is due by end of day (17h) Friday, March 13.
     - One file of your working or not-working code
     - Thank you!
 
-### Thursday March 19 Day 5
+### Thursday March 19 Day 4
 * Focus: drawing with data (2)
 * Lecture: 
-    - Review: code concepts
-    - Code: charts + containers, labels, axes, SVG + more shapes, drawing with data + comparison, conditionals, logic
+    - Review: assignment
+    - Code: charts + containers, labels, axes, more scales, color, conditionals, logic
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
     - Shapes with scales
     - Code concepts
 * Assignment:
 
-### Friday March 20 Day 6
+### Friday March 20 Day 5
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations (time-based), math, "causation/correlation"
-    - Design: the role of inspiration, divergent thinking
+    - Code: types of visualisations, math, "causation/correlation"
     - Design: visualisation process, storytelling
 * Exercises:
-    - Time-based visualisation
     - Code concepts
 * Assignment:
     - Theory: research your dataset
     - Design: integrate inspiration in your process, draw, tell the story
-    - Code: make your own time-based visualisation
+    - Code: make your own
 
 ## Part C
 * Mini-project development
 
-### Monday March 23 Day 7
+### Monday March 23 Day 6
 * Focus: project
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations (small multiples)
+    - Code: more types of visualisations
     - Theory: perception, ethics + data visualisation
     - Theory: the brief + how to plan a project
 * Exercises:
-    - Small multiples
-    - Code concepts bowl 5
+    - Code concepts
 * Assignment:
     - Visualisation project choice 
 
-### Tuesday March 24 Day 8
+### Tuesday March 24 Day 7
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations (relational)
+    - Code: more types of visualisations
     - Design: labels, legends, layout
     - Design: drawing iterations and testing
-* Exercises:
-    - Relational visualisations
+* Exercises
 * Assignment:
     - Code: visualise at least 1 element of your selected dataset
     - Theory: use other tools to analyse your dataset
     - Design: draw at least 7 variations of how to communicate your data
 
-### Wednesday March 25 Day 9
+### Wednesday March 25
 * Focus: project development
 
-### Thursday March 26 Day 10
+### Thursday March 26 Day 8
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations (mappings, shapes, custom)
+    - Code: types of visualisations
     - Design: visual choices, color, font, composition, feel
 * Exercises:
     - Switch, share, select, re-make project plan
 * Assignment:
     - Re-make project plan
 
-### Friday March 27 Day 11
+### Friday March 27 Day 9
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -280,7 +276,7 @@ The below work is due by end of day (17h) Friday, March 13.
 ## Part D
 * Finessing
 
-### Monday March 30 Day 12
+### Monday March 30 Day 10
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
@@ -291,7 +287,7 @@ The below work is due by end of day (17h) Friday, March 13.
     - Design: assistance
     - Theory: fulfill template
 
-### Tuesday March 31 Day 13
+### Tuesday March 31 Day 11
 * Focus: presentation
 * Lecture: 
     - Summary
@@ -300,7 +296,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Assignment:
     - Prepare for presentations
 
-### Friday April 3 Day 16
+### Friday April 3 Day 12
 * Focus: presentations
 * Prep: template
 
