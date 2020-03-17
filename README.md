@@ -191,7 +191,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
 
 * Deliverables: Post in the assignments channel, your own blog, your onedrive, or send to me directly:
-    - Dear Data hand-drawn sketch (see point 5 above)
+    - Dear Data hand-drawn sketch (see point v. above)
     - One file of your working or not-working code
     - Thank you!
 
