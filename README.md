@@ -181,8 +181,9 @@ The below work is due by end of day (17h) Friday, March 13.
         * Brainstorm through sketching how each dimension will be visualised (for example: dimension of years is on the x axis, dimension of forest area is on the y axis).
         * Brainstorm through sketching different shapes you will use to represent the data. Will you show the data through the size of the shape, its position, or both, etc?
     4. By hand, sketch a few of the data points in your intended visualisation (for example: what will 3 of the data points look like?) 
-    5. Make at least 1 of the hand-drawn sketches into a "Dear Data" style postcard with the legend of exactly how each data point is represented visually.
-    6. Put your sketching to one side and pick up your computer again.
+    5. Check [Dear Data](https://deardata-deliveries.tumblr.com/) hand-drawn sketching
+    6. Make at least 1 of YOUR hand-drawn sketches into a ["Dear Data"](https://deardata-deliveries.tumblr.com/) style postcard with the legend of exactly how each data point is represented visually.
+    7. Put your sketching to one side and pick up your computer again.
 
 * Code: Try to code at least 1 of your ideas - or simplify it down to build on an example from class. 
     * If this is easy, make at least 3 variations of different ways to visualise the same data. 
@@ -191,7 +192,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Read: [Interaction of Color](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/)
 
 * Deliverables: Post in the assignments channel, your own blog, your onedrive, or send to me directly:
-    - Dear Data hand-drawn sketch (see point v. above)
+    - Dear Data hand-drawn sketch (see points v. and vi. above)
     - One file of your working or not-working code
     - Thank you!
 
