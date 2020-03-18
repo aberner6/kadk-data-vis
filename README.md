@@ -211,7 +211,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
-    - Code: bars, paths - arcs, geometry, conditionals, logic
+    - Code: time-based visualisations: bars, paths - arcs, geometry, conditionals, logic
     - Design: visualisation process, storytelling
 * Exercises:
     - Code concepts
@@ -255,7 +255,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations
+    - Code: more types of visualisations
     - Design: visual choices, color, font, composition, feel
 * Exercises:
     - Switch, share, select, re-make project plan

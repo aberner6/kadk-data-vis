@@ -20,7 +20,7 @@ every SVG element will be contained inside here.
 the bounds contain all of our data elements: 
 in this case, our scatterplot of circles.
 
-PART 1: CHARTS
+PART 2: CHARTS
 + containers, labels, axes*/
 
 async function drawData() {
@@ -162,6 +162,6 @@ drawData();
 
 
 /*
-PART 1: CHARTS
+PART 2: CHARTS
 + containers, labels, axes
 */
