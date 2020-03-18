@@ -1,12 +1,12 @@
 /*it's a fresh start!
-we figured out how to lay out the charts so they fit in the webpages easily
-
-now, let's play with a few more d3 svg shapes
-
-PART 2: SVG
-+ more shapes, practicing selectors, binding data
+yesterday, we figured out how to lay out the charts so they fit in the webpages easily
+today:
+/*
+PART 1: DRAWING WITH DATA: radials
++ transforms, geometry
 let's make a radial plot!
 */
+
 async function drawData() {
 /*step 1: load data*/
 	const dataset = await d3.csv("./../../forest.csv")
@@ -179,7 +179,6 @@ drawData();
 
 
 /*
-PART 2: SVG
+PART 1: DRAWING WITH DATA
 + more shapes, practicing selectors, binding data
-PART 3: DRAWING WITH DATA
 + selectors, binding data, comparison, logic, conditionals*/

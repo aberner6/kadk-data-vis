@@ -164,7 +164,4 @@ drawData();
 /*
 PART 1: CHARTS
 + containers, labels, axes
-PART 2: SVG
-+ more shapes, practicing selectors, binding data
-PART 3: DRAWING WITH DATA
-+ selectors, binding data, comparison, logic, conditionals*/
+*/

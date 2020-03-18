@@ -200,7 +200,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Focus: drawing with data (2)
 * Lecture: 
     - Review: assignment
-    - Code: charts + containers, labels, axes, more scales, color, conditionals, logic
+    - Code: more scales, containers, labels, axes
     - Design: visual encoding, "right" visualisation for "this" data
 * Exercises:
     - Shapes with scales
@@ -211,7 +211,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Focus: drawing with data (3)
 * Lecture: 
     - Review: assignments
-    - Code: types of visualisations, math, "causation/correlation"
+    - Code: bars and radials, geometry, conditionals, logic
     - Design: visualisation process, storytelling
 * Exercises:
     - Code concepts

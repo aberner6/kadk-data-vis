@@ -1,5 +1,5 @@
 
-/*PART 3.9: color 
+/*PART 3.9: SCALES: color 
 we can also work to encode the data through colors
 for example, the more forest, the brighter the color
 we can use HCL, HSV, RGB, for example:
@@ -73,7 +73,7 @@ or simply ask d3 to make a smooth color range based on our domain
 
 
 
-/*PART 3.91: Ordinal scales
+/*PART 3.91: SCALES: categories
 what about doing scales based on "ordinal" information?
 ordinal information is something like - fruits, cities, etc.
 can d3 understand these and map them to different colors, for example?
@@ -144,3 +144,6 @@ ordinal scales are for discrete input domains, such as names or categories.
 // }
 // drawData();
 
+
+/*PART 3.9: SCALES: color 
+/*PART 3.91: SCALES: categories*/

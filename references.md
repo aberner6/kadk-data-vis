@@ -53,6 +53,8 @@ All of these are from Plubius Syrus.(42 B.C.)
     * [Dynamically typed language](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
     * [Variables: var, const, let](https://www.w3schools.com/js/js_es6.asp) or from Dan Shiffman [video](https://www.youtube.com/watch?v=q8SHaDQdul0)
     * [Reduce](https://www.youtube.com/watch?v=-LFjnY1PEDA)
+    * [Comparison operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Comparison_operators)
+    * [Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) or [this tutorial](https://www.w3schools.com/js/js_if_else.asp)
 
 ## D3:
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
