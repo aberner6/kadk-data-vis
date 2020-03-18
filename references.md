@@ -55,6 +55,9 @@ All of these are from Plubius Syrus.(42 B.C.)
     * [Reduce](https://www.youtube.com/watch?v=-LFjnY1PEDA)
     * [Comparison operators](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math#Comparison_operators)
     * [Conditionals](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals) or [this tutorial](https://www.w3schools.com/js/js_if_else.asp)
+    * [Transform, translate, rotate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
+    * [SVG Paths](https://www.dashingd3js.com/svg-paths-and-d3js)
+    * [Curved text](https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html)
 
 ## D3:
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)

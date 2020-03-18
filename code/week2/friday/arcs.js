@@ -2,9 +2,9 @@
 yesterday, we figured out how to lay out the charts so they fit in the webpages easily
 today:
 /*
-PART 1: DRAWING WITH DATA: radials
+PART 2: DRAWING WITH DATA: paths: arcs
 + transforms, geometry
-let's make a radial plot!
+let's make arcs!
 */
 
 async function drawData() {
@@ -61,11 +61,25 @@ async function drawData() {
 		.domain(d3.extent(dataset, foDomain)) 
 		.range([dimensions.boundedHeight/2,0]) //min goes almost at bottom, max goes almost at top
 /*step 5: draw data
-let's draw a radial chart
-in order to do that we need to draw lines
+let's draw arcs
+in order to do that we need to draw shapes
 then rotate them per year
 https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform
 draw by hand first, then translate to code
+
+the shape of an SVG Path element is defined by one attribute: d.
+this attribute, d, contains a series of commands and parameters in the SVG Path Mini-Language.
+these commands and parameters are a sequential set of instructions for how to "move the pen over the paper".
+such as:
+M 10 25 - Put the pen down at 10 25
+L 10 75 - Draw a line to the point 10 75, from the previous point 10 25
+L 60 75 - Draw a line to the point 60 75, from the previous point 10 75
+L 10 25 - Draw a line to the point 10 25, from the previous point 60 75
+that is what d3 generates for us given the data and shape definition
+d3.svg.arc - create a new arc generator
+
+more about paths: 
+https://www.dashingd3js.com/svg-paths-and-d3js
 */
 	const numBars = dataset.length;
 	const arc = d3.arc()
@@ -98,87 +112,41 @@ draw by hand first, then translate to code
 		.style("stroke-width",".5px");
 	legendCircs.attr("transform", "translate("+dimensions.boundedWidth/2+","+dimensions.boundedWidth/2+")")		
 
-
-
-// var degrees = 360 / numBars;
-// var selection = bounds.append("g")
-// 	.attr("transform", "translate(200,200)")
-// 	.selectAll("text")
-// 	.data(dataset)
-// 	.enter()
-// 		.append("text")
-// 	    .attr("transform", function (d) {
-// 	    	return "translate(" + arc.centroid(d) + ")";
-// 		})
-// 	    .attr("text-anchor", "middle")
-// 	    .text(function (d) {
-// 	    	return d.year;
-// 		});
 /*fancy way to curve a text around a circle
 https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html
 */	
-	// const labelRadius = dimensions.boundedHeight/2 * 1.025;
+	const labelRadius = dimensions.boundedHeight/2 * 1.025;
 
-	// var labels = bounds.append("g")
-	// 	.attr("transform", "translate("+dimensions.boundedWidth/2+","+dimensions.boundedWidth/2+")")		
-	// 	.classed("labels", true);
+	var labels = bounds.append("g")
+		.attr("transform", "translate("+dimensions.boundedWidth/2+","+dimensions.boundedWidth/2+")")		
+		.classed("labels", true);
 
-	// labels.append("def")
-	//     .append("path")
-	//     .attr("id", "label-path")
-	//     .attr("d", "m0 " + -labelRadius + " a" + labelRadius + " " + labelRadius + " 0 1,1 -0.01 0");
+	labels.append("def")
+	    .append("path")
+	    .attr("id", "label-path")
+	    .attr("d", "m0 " + -labelRadius + " a" + labelRadius + " " + labelRadius + " 0 1,1 -0.01 0");
 
-	// labels.selectAll("text")
-	//     .data(dataset)
-	//   .enter().append("text")
-	//     .style("text-anchor", "middle")
-	//     .style("font-weight","bold")
-	//     .style("fill", "black")
-	//     .append("textPath")
-	//     .attr("xlink:href", "#label-path")
-	//     .attr("startOffset", function(d, i) {return i * 100 / numBars + 50 / numBars + '%';})
-	//     .text(function(d) {return d.year.toUpperCase(); });
+	labels.selectAll("text")
+	    .data(dataset)
+	  .enter().append("text")
+	    .style("text-anchor", "middle")
+	    .style("font-weight","bold")
+	    .style("fill", "black")
+	    .append("textPath")
+	    .attr("xlink:href", "#label-path")
+	    .attr("startOffset", function(d, i) {return i * 100 / numBars + 50 / numBars + '%';})
+	    .text(function(d) {return d.year.toUpperCase(); });
 
-
-	// const xAxisGenerator = d3.axisBottom() 
-	// 	.scale(xScale) 
-	//     .ticks(4);
-	// const xAxis = bounds.append("g")
-	// 	.call(xAxisGenerator)
-	// 	.style("transform", `translateY(${dimensions.boundedHeight}px)`)
-
-	// const xAxisLabel = xAxis.append("text") //also labels
-	// 	.attr("x", dimensions.boundedWidth / 2)
-	// 	.attr("y", dimensions.margin.bottom - 10)
-	// 	.attr("fill", "black")
-	// 	.style("font-size", "1.4em")
-	// 	.html("Years")
-
-	// const yAxisGenerator = d3.axisLeft()
-	// 	.scale(yScale) 
-	// const yAxis = bounds.append("g")
-	// 	.call(yAxisGenerator)
-
-	// const yAxisLabel = yAxis.append("text")
-	// 	.attr("x", -dimensions.boundedWidth / 2)
-	// 	.attr("y", -dimensions.margin.left/4)
-	// 	.attr("fill", "black")
-	// 	.style("font-size", "1.4em")
-	// 	.text("Growth")
-	// 	.style("transform", "rotate(-90deg)")
-	// 	.style("text-anchor", "middle")
-
-	// const title = bounds.append("text")
-	// 	.attr("x", -dimensions.margin.left/2)
-	// 	.attr("y", -dimensions.margin.top/2)
-	// 	.attr("fill", "black")
-	// 	.style("font-size", "1.4em")
-	// 	.text("Trees")
+	const title = bounds.append("text")
+		.attr("x", -dimensions.margin.left/2)
+		.attr("y", -dimensions.margin.top/2)
+		.attr("fill", "black")
+		.style("font-size", "1.4em")
+		.text("Trees")
 }
 drawData();
 
 
 /*
-PART 1: DRAWING WITH DATA
-+ more shapes, practicing selectors, binding data
-+ selectors, binding data, comparison, logic, conditionals*/
+PART 2: DRAWING WITH DATA: arcs
++ transforms, geometry*/
