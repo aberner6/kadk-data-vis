@@ -202,10 +202,22 @@ The below work is due by end of day (17h) Friday, March 13.
     - Review: assignment
     - Code: more scales, containers, labels, axes
     - Design: visual encoding, "right" visualisation for "this" data
-* Exercises:
-    - Shapes with scales
-    - Code concepts
-* Assignment:
+* Exercises: 
+    * Experiments: Use the same code you started working on yesterday and play with it again using color scales. Feel free to change datasets and work with the oldestTrees.csv instead of the forestData.csv if you prefer to start fresh. 
+    * Data design: As individuals or in groups (up to you and what works with your schedules), revisit your previous group analog data assignment and prepare to post responses to the following questions:
+        *  What kinds of data did we track? (quantitative? qualitative?)
+        *  How many dimensions are there? (2 dimensions? 3? more?)
+        *  What is my interesting insight (or insights) from the data? (patterns? outliers?)
+        *  What is my goal for this data representation? (explain, explore, exhibit)
+        *  How could we represent that data (3 ideas)? (for example: we represent each data point with a line. Each line is placed on the x axis according to its progression in time. Color of line represents speed of movement of thing we observed).
+        *  Draw this by hand or if you prefer, in a computer drawing program of your choice. Use shapes, sizes, positions, colors, textures or other data visualisation ingredients. Make a clear legend of how we should understand your visualisation. 
+    * Extra:
+        - If you want, you can translate your analog data collection activity to a spreadsheet. For example, make a copy of [mine](https://docs.google.com/spreadsheets/d/1EBEXN0VJ_uokCgBjuJAcheHCG7-BlPEw57gL4KHXJ_4/edit?usp=sharing). Download it as a csv (file -> download as csv) and place it in your overall code folder (same place as where I put the forest.csv). Make sure to check the name and keep it simple (in my example - annelie_sky.csv). 
+        - Load it up in a javascript file where you have already been working with the forest data and replace that "forest.csv" with your own CSV filename. Try to visualise it in your code!
+        - I have created an example that follows this logic with the data file of "annelie_sky.csv" and then the javascript file of "sky.js" in our thursday folder of code ;)
+    * Deliverables:
+        *  Experiments: Post in #assignments at least 1 screenshot of your experiments and your code. Post at least some lines of code that are not working (or working) in the #code channel with a comment of what you were trying to figure out (or figured out).
+        *  Data design: Post in #assignments your responses to the re-visited analog data visualisation activity.
 
 ### Friday March 20 Day 5
 * Focus: drawing with data (3)
