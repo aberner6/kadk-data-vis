@@ -131,6 +131,8 @@ General:
     * [A year of hand-drawn data visualisation](http://www.dear-data.com/all)
     * [Visualising Algorithms](https://bost.ocks.org/mike/algorithms/)
     * [Bruises: the data we don't see](http://giorgialupi.com/bruises-the-data-we-dont-see)
+    * [Jonathan Harris: Whale Hunt](http://number27.org/whalehunt)
+    * [Jonathan Harris: Network Effect](http://networkeffect.io/)
 
 ### Data and Art
 * [Tega Brain](http://tegabrain.com)
