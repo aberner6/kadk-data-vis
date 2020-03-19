@@ -58,7 +58,6 @@ All of these are from Plubius Syrus.(42 B.C.)
     * [Transform, translate, rotate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
     * [SVG Paths](https://www.dashingd3js.com/svg-paths-and-d3js)
     * [Curved text](https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html)
-    * [Time scales](https://github.com/d3/d3-time-format)
 
 ## D3:
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
@@ -71,6 +70,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Shapes](https://www.d3indepth.com/shapes/)
 * [Arcs](https://github.com/d3/d3-shape#arcs)
 * [Color reference](https://github.com/d3/d3-scale-chromatic/blob/master/README.md)
+* [Time scales](https://github.com/d3/d3-time-format)
 
 ## SVG:
 * [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
@@ -130,6 +130,7 @@ General:
     * [Creativity](https://podio.com/site/creative-routines)
     * [A year of hand-drawn data visualisation](http://www.dear-data.com/all)
     * [Visualising Algorithms](https://bost.ocks.org/mike/algorithms/)
+    * [Bruises: the data we don't see](http://giorgialupi.com/bruises-the-data-we-dont-see)
 
 ### Data and Art
 * [Tega Brain](http://tegabrain.com)
