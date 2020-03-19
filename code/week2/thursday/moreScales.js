@@ -117,18 +117,27 @@ async function drawData() {
 		.domain(d3.extent(dataset, ageDomain)) 
 		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
 
-
-	const cats = []; //empty cats array
-	function categories(){
-		for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
-			cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
-		}
-	}
-	categories(); //make it happen!
+/*
+the old school way to pull all the categories together:
+*/
+		// const cats = []; //empty cats array
+		// function categories(){
+		// 	for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
+		// 		cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
+		// 	}
+		// }
+		// categories(); //make it happen!
 	// console.log(cats);
-
+/*
+or you can go new school - which is what we have been doing thus far -
+sorry for any confusion
+still good to learn the pure javascript way of above (old school)
+*/
+	const catDomain = function(d){
+		return d.species;
+	}
 	const colScale = d3.scaleOrdinal()
-		.domain([cats])
+		.domain(d3.extent(dataset, catDomain))
 		.range(d3.schemeAccent);
 
 	const foCircles = canvas.selectAll("foc")
