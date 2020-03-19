@@ -73,6 +73,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [SVG Paths](https://www.dashingd3js.com/svg-paths-and-d3js)
 * [Curved text](https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html)
 * [Time scales](https://github.com/d3/d3-time-format)
+* [Random numbers](https://bl.ocks.org/lwthatcher/2ee04fa40a3c005007dc54d6da75198a) or [this one](https://bl.ocks.org/jamesleesaunders/260cf482c8a56d49dfa6)
 
 ## SVG:
 * [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)
@@ -82,6 +83,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Mr Data Converter](https://shancarter.github.io/mr-data-converter/)
 * [Google Refine](https://www.propublica.org/nerds/using-google-refine-for-data-cleaning)
 * [Weather data](https://darksky.net/dev)
+* [Our class data](https://drive.google.com/drive/folders/1w_3njXcsP0w015HQU6F2Ob9yA6KhRGgf?usp=sharing)
 
 ### Code
 * [Other libraries](https://www.one-tab.com/page/AAowTVdlQBWXkQ3BNWAJSg)
