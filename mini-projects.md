@@ -1,7 +1,7 @@
 # IDEAS
 
 ## Data sources
-* [Future climate data](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change)
-* [Past year of CPH weather data](https://github.com/aberner6/kadk-data-vis/blob/master/code/weather_data.json)
-* Collect your own data:
-    - Which trees are blooming?
+* FUTURE OF CLIMATE: [Future climate data](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change)
+* PAST OF CLIMATE: [Past year of CPH weather data](https://github.com/aberner6/kadk-data-vis/blob/master/code/weather_data.json)
+* PRESENT OF CLIMATE: Collect your own data:
+    - For example: which trees are blooming?
