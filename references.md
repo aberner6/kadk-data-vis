@@ -60,6 +60,7 @@ All of these are from Plubius Syrus.(42 B.C.)
     * [push() method](https://www.w3schools.com/jsref/jsref_push.asp) or [this one](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
 ## D3:
+* [Gallery of examples](https://github.com/d3/d3/wiki/Gallery) or [this one](http://techslides.com/over-1000-d3-js-examples-and-demos) or [this one](https://christopheviau.com/d3list/gallery.html)
 * [Wiki of tutorials](https://github.com/d3/d3/wiki/Tutorials)
 * [Change log](https://github.com/d3/d3/releases)
 * [Founder of d3](https://bost.ocks.org/mike/)

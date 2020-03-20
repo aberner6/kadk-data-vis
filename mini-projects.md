@@ -6,7 +6,7 @@
 * PRESENT OF CLIMATE: Collect your own data:
     - For example: which trees are blooming?
 
-## Data types
+## Alternative data types
 * Images are data too :) like [Jonathan Harris](http://thewhalehunt.org/)
 * Books are data too :)
 
@@ -18,3 +18,4 @@
 * [Weather radials](http://www.weather-radials.com/)
 * [Keeping time: species life cycles](http://www.tegabrain.com/Keeping-Time)
 * [Visualising the seasons](https://www.flickr.com/photos/stevefaeembra/5349017221/in/photostream/)
+* [D3 Examples - top of list](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#d3)
