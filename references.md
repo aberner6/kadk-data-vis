@@ -74,7 +74,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Curved text](https://www.visualcinnamon.com/2015/09/placing-text-on-arcs.html)
 * [Time scales](https://github.com/d3/d3-time-format)
 * [Random numbers](https://bl.ocks.org/lwthatcher/2ee04fa40a3c005007dc54d6da75198a) or [this one](https://bl.ocks.org/jamesleesaunders/260cf482c8a56d49dfa6)
-* [d3 extent](https://observablehq.com/@d3/d3-extent)
+* [d3 min, max, extent](https://observablehq.com/@d3/d3-extent)
 
 ## SVG:
 * [Encyclopedia of SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Element)

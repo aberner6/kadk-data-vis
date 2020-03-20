@@ -83,19 +83,15 @@ yes!
 ordinal scales are for discrete input domains, such as names or categories.
 */
 async function drawData() {
-	const dataset = await d3.csv("./../../oldestTrees.csv")
+	const dataset = await d3.csv("./../../week3/oldestTrees2.csv")
 	const accessor = dataset[0];
 	console.log(accessor);
 
 	const radius = 5;
 	
-	const screenSize = d3.min([
-		window.innerWidth * 0.9,
-		window.innerHeight * 0.9,
-	])
 
-	const width = screenSize;
-	const height = screenSize;
+	const width = 800;
+	const height = 500;
 
 	const margin = radius*4;
 
@@ -104,6 +100,16 @@ async function drawData() {
 		.attr("width", width) //of this width
 		.attr("height", height); //and this height
 
+	
+	console.log("window"+d3.min([window.innerWidth, window.innerHeight]))
+	console.log("simple question: what's the smallest number??? "+d3.min([0, 2, 6, 9]))
+
+
+
+
+
+
+
 	const xScale = d3.scaleLinear() 
 		.domain([0, dataset.length]) 
 		.range([margin, width-margin]) //minimum and maximum pixels we want to map for radius
@@ -111,8 +117,6 @@ async function drawData() {
 	const ageDomain = function(d){
 		return d.age;
 	}
-	const extent = d3.extent(dataset, ageDomain);
-	console.log(extent)
 	const yScale = d3.scaleLinear() 
 		.domain(d3.extent(dataset, ageDomain)) 
 		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
@@ -120,60 +124,56 @@ async function drawData() {
 /*
 the old school way to pull all the categories together:
 */
-	const cats = []; //empty cats array
-	function categories(){
-		for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
-			cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
-		}
-	}
-	categories(); //make it happen!
-	console.log(cats);
+	// const cats = []; //empty cats array
+	// function categories(){
+	// 	for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
+	// 		cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
+	// 	}
+	// }
+	// categories(); //make it happen!
+	// console.log(cats);
 /*
 or you can go new school - which is what we have been doing thus far -
 sorry for any confusion
 still good to learn the pure javascript way of above (old school)
 */
-	const cntDomain = function(d){
-		return d.country; //country access
-	}
-	const ordScale = d3.scalePoint() //organise categorical information on y access
-		.domain(cats)
-		.range([height-margin, margin]) //min goes almost at bottom, max goes almost at top
-	
+	const speciesDomain = function(d){
+		return d.species; //species access
+	}	
 	const colScale = d3.scaleOrdinal() //organise categorical information in color space
-		.domain(d3.extent(dataset, cntDomain)) 
-		.range(d3.schemeAccent);
+		.domain(cats) 
+		.range(d3.interpolate({colors: ["red", "blue"]}, {colors: ["white", "black"]}));
 
-	const foCircles = canvas.selectAll("foc")
+	const treeCircles = canvas.selectAll("treecircs")
 		.data(dataset)
 		.enter().append("circle")
-		.attr("cx", function(d,i){
-			return xScale(i);
-		})
-		.attr("cy", function(d){
-			return ordScale(d.species);
-		})
+		.attr("cx", function(d,i){			
+				return xScale(i);
+			}
+		)
+		.attr("cy", 10)
 		.attr("r", radius)
 		.attr("fill", function(d){
-			return colScale(d.country);
+			console.log(colScale(d.species))
+			return colScale(d.species);
 		});
 
-	const lineData = canvas.selectAll("fol")
-		.data(dataset)
-		.enter().append("line")
-		.attr("x1", function(d,i){
-			return xScale(i);
-		})
-		.attr("x2", function(d,i){
-			return xScale(i);
-		})
-		.attr("y1", height-margin)
-		.attr("y2", function(d){
-			return yScale(d.age);
-		})
-		.attr("stroke", function(d){
-			return colScale(d.country);
-		});
+	// const lineData = canvas.selectAll("fol")
+	// 	.data(dataset)
+	// 	.enter().append("line")
+	// 	.attr("x1", function(d,i){
+	// 		return xScale(i);
+	// 	})
+	// 	.attr("x2", function(d,i){
+	// 		return xScale(i);
+	// 	})
+	// 	.attr("y1", height-margin)
+	// 	.attr("y2", function(d){
+	// 		return yScale(d.age);
+	// 	})
+	// 	.attr("stroke", function(d){
+	// 		return colScale(d.country);
+	// 	});
 }
 drawData();
 

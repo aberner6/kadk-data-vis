@@ -72,23 +72,23 @@ draw by hand first
 what are the x,y position defined by? 
 what's the height defined by?
 */
-// 	const rectWidth = 5;
-// 	const foRects = bounds.selectAll("forest")
-// 		.data(dataset)
-// 		.enter().append("rect")
-// 		.attr("x", function(d,i){
-// 			return xScale(d.year)-rectWidth;
-// 		})
-// 		.attr("y", function(d){
-// 			return yScale(d.forest);
-// 		})
-// 		.attr("width", rectWidth)
-// 		.attr("height", function(d){
-// 			return dimensions.boundedHeight-yScale(d.forest);
-// 		})
-// 		.attr("fill", "grey")
-// 		.attr("stroke", "black")
-// 		.attr("opacity",.2) 
+	// const rectWidth = 5;
+	// const foRects = bounds.selectAll("forest")
+	// 	.data(dataset)
+	// 	.enter().append("rect")
+	// 	.attr("x", function(d,i){
+	// 		return xScale(d.year)-rectWidth;
+	// 	})
+	// 	.attr("y", function(d){
+	// 		return yScale(d.forest);
+	// 	})
+	// 	.attr("width", rectWidth)
+	// 	.attr("height", function(d){
+	// 		return dimensions.boundedHeight-yScale(d.forest);
+	// 	})
+	// 	.attr("fill", "grey")
+	// 	.attr("stroke", "black")
+	// 	.attr("opacity",.2) 
 
 /*step 6: draw labels and axes*/
 // 	const xAxisGenerator = d3.axisBottom() 
