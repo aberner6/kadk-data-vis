@@ -228,9 +228,9 @@ The below work is due by end of day (17h) Friday, March 13.
 * Exercises:
     - Code concepts
 * Assignment:
-    - Theory: research your dataset
-    - Design: integrate inspiration in your process, draw, tell the story
-    - Code: make your own
+    * Sign up for office hours with me next week. Link should work now! https://calendly.com/a-berner/kadk-office-hours 
+    * Would you be up for doing it in a pair? If so, meet together and discuss ideas. 
+    * Start mulling over ideas for your mini project. It can start with a topic or it can start even with a dataset. Need help finding an idea? Here are some datasets to start with: https://github.com/aberner6/kadk-data-vis/blob/master/mini-projects.md
 
 ## Part C
 * Mini-project development
@@ -245,7 +245,7 @@ The below work is due by end of day (17h) Friday, March 13.
 * Exercises:
     - Code concepts
 * Assignment:
-    - Visualisation project choice 
+    - Visualisation project choice: what topic, data, goal, audience?
 
 ### Tuesday March 24 Day 7
 * Focus: project development
