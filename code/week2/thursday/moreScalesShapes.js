@@ -124,14 +124,14 @@ async function drawData() {
 /*
 the old school way to pull all the categories together:
 */
-	// const cats = []; //empty cats array
-	// function categories(){
-	// 	for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
-	// 		cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
-	// 	}
-	// }
-	// categories(); //make it happen!
-	// console.log(cats);
+	const cats = []; //empty cats array
+	function categories(){
+		for(var i=0; i<dataset.length; i++){ //our for loop to go through the data
+			cats.push(dataset[i].species); //push every data piece from the species column of the spreadsheet into the cats array
+		}
+	}
+	categories(); //make it happen!
+	console.log(cats);
 /*
 or you can go new school - which is what we have been doing thus far -
 sorry for any confusion
@@ -142,7 +142,9 @@ still good to learn the pure javascript way of above (old school)
 	}	
 	const colScale = d3.scaleOrdinal() //organise categorical information in color space
 		.domain(cats) 
-		.range(d3.interpolate({colors: ["red", "blue"]}, {colors: ["white", "black"]}));
+		// .range(d3.schemeBrBG[9])
+		// .range(d3.schemePRGn[9])
+		.range(d3.schemeSpectral[9])
 
 	const treeCircles = canvas.selectAll("treecircs")
 		.data(dataset)
