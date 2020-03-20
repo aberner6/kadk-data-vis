@@ -222,11 +222,8 @@ The below work is due by end of day (17h) Friday, March 13.
 ### Friday March 20 Day 5
 * Focus: drawing with data (3)
 * Lecture: 
-    - Review: assignments
+    - Review: confusing code concepts
     - Code: time-based visualisations: bars, paths - arcs, geometry, conditionals, logic
-    - Design: visualisation process, storytelling
-* Exercises:
-    - Code concepts
 * Assignment:
     * Sign up for office hours with me next week. Link should work now! https://calendly.com/a-berner/kadk-office-hours 
     * Would you be up for doing it in a pair? If so, meet together and discuss ideas. 
@@ -238,52 +235,47 @@ The below work is due by end of day (17h) Friday, March 13.
 ### Monday March 23 Day 6
 * Focus: project
 * Lecture: 
-    - Review: assignments
-    - Code: more types of visualisations
-    - Theory: perception, ethics + data visualisation
-    - Theory: the brief + how to plan a project
-* Exercises:
-    - Code concepts
-* Assignment:
-    - Visualisation project choice: what topic, data, goal, audience?
+    - Review: project ideas
+    - Design: visualisation process, storytelling
+    - Theory: how to plan a project
+* Afternoon activity:
+    - Visualisation project choice: what topic, what data, what goal, who is the audience? Fill out the project worksheet (link coming)
+    - Office hours
 
 ### Tuesday March 24 Day 7
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: more types of visualisations
-    - Design: labels, legends, layout
-    - Design: drawing iterations and testing
-* Exercises
-* Assignment:
-    - Code: visualise at least 1 element of your selected dataset
-    - Theory: use other tools to analyse your dataset
+    - Code: movement, more types of visualisations
+    - Theory: perception, ethics + data visualisation
+* Afternoon activity:
     - Design: draw at least 7 variations of how to communicate your data
+    - Office hours
 
 ### Wednesday March 25
 * Focus: project development
+* Code: pull in your data. Log it to the console. Try to visualise at least one dimension. 
 
 ### Thursday March 26 Day 8
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: more types of visualisations
-    - Design: visual choices, color, font, composition, feel
-* Exercises:
-    - Switch, share, select, re-make project plan
-* Assignment:
-    - Re-make project plan
+    - Code: movement, more types of visualisations
+    - Design: labels, legends, layout
+* Afternoon activity:
+    - Code
+    - Office hours
 
 ### Friday March 27 Day 9
 * Focus: project development
 * Lecture: 
-    - Code: interactions (mouse, animations, explanations)
+    - Code: movement, more types of visualisations
+    - Design: visual choices, color, font, composition, feel
 * Exercises:
     - Interactions
-* Assignment:
-    - Code: integrate
-    - Design: assistance
-    - Theory: fulfill template
+* Afternoon activity:
+    - Code
+    - Office hours
 
 ## Part D
 * Finessing
