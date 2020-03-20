@@ -90,7 +90,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Other libraries](https://www.one-tab.com/page/AAowTVdlQBWXkQ3BNWAJSg)
 * [Demos](https://observablehq.com/@agness/introdv-f18-demo-1-data-select-scale)
 
-# VISUALISATION:
+# VISUALISATION RESOURCES:
 * [General Resources](https://www.visualisingdata.com/resources/)]
 * [Choosing the right chart 1](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
 * [Choosing the right chart 2](https://www.data-to-viz.com/#explore)
@@ -99,7 +99,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Design process](https://designsprintkit.withgoogle.com/methodology/overview)
 * [Color picker](https://projects.susielu.com/viz-palette)
 
-# DATA VISUALISATION
+# VISUALISATION INSPIRATION:
 ### Data and Journalism
 Data visualisation embedded into journalism
 * [The Upshot](https://www.nytimes.com/section/upshot)
