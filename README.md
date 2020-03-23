@@ -233,13 +233,13 @@ The below work is due by end of day (17h) Friday, March 13.
 * Mini-project development
 
 ### Monday March 23 Day 6
-* Focus: project
+* Focus: project research and conceptualisation
 * Lecture: 
     - Review: project ideas
     - Design: visualisation process, storytelling
     - Theory: how to plan a project
 * Afternoon activity:
-    - Visualisation project choice: Start documenting your project idea. I made a template for you which is in this folder: https://drive.google.com/drive/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i?usp=sharing . Please make a copy, name it with your name(s). Fill out at least the first two steps (slides 2, 3).
+    - Mini-project choice: Start documenting your project idea. I made a template for you which is in this folder: https://drive.google.com/drive/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i?usp=sharing . Please make a copy, name it with your name(s). Fill out at least the first two steps (get data, understand data).
 Let me know if you have any questions.
     - Office hours
 
@@ -247,33 +247,31 @@ Let me know if you have any questions.
 * Focus: project development
 * Lecture: 
     - Review: assignments
-    - Code: movement, more types of visualisations
     - Theory: perception, ethics + data visualisation
 * Afternoon activity:
-    - Design: draw at least 7 variations of how to communicate your data
+    - Mini-project: continue documenting your project idea through the template you began working on yesterday: https://drive.google.com/drive/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i?usp=sharing . 
+    - Fill out at least steps 3, 4, 5 (audience, sketch, story).    
     - Office hours
 
 ### Wednesday March 25
 * Focus: project development
 * Code: pull in your data. Log it to the console. Try to visualise at least one dimension. 
+* Deliverable: post the link to your current status of the project development template (the google slides link you should have already made a copy of and begun working on during Monday and Tuesday)
 
 ### Thursday March 26 Day 8
 * Focus: project development
-* Lecture: 
-    - Review: assignments
-    - Code: movement, more types of visualisations
-    - Design: labels, legends, layout
+* Morning activity: 
+    - Review: project status
+    - Office hours
 * Afternoon activity:
     - Code
     - Office hours
 
 ### Friday March 27 Day 9
 * Focus: project development
-* Lecture: 
-    - Code: movement, more types of visualisations
-    - Design: visual choices, color, font, composition, feel
-* Exercises:
-    - Interactions
+* Morning activity: 
+    - Review: project status
+    - Office hours
 * Afternoon activity:
     - Code
     - Office hours
