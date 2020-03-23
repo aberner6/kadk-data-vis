@@ -239,7 +239,8 @@ The below work is due by end of day (17h) Friday, March 13.
     - Design: visualisation process, storytelling
     - Theory: how to plan a project
 * Afternoon activity:
-    - Visualisation project choice: what topic, what data, what goal, who is the audience? Fill out the project worksheet (link coming)
+    - Visualisation project choice: Start documenting your project idea. I made a template for you which is in this folder: https://drive.google.com/drive/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i?usp=sharing . Please make a copy, name it with your name(s). Fill out at least the first two steps (slides 2, 3).
+Let me know if you have any questions.
     - Office hours
 
 ### Tuesday March 24 Day 7
