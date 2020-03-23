@@ -2,6 +2,7 @@
 * [Storytelling types](http://napa-cards.net/)
     - [Nadieh Bremer](https://www.visualcinnamon.com/2014/12/using-data-storytelling-with-chord.html)
 * [Which graphic for your data](https://www.data-to-viz.com/)
+* [How Many Angles?](https://accuratstudio.wordpress.com/workshop-presentation-2/)
 
 ## Data sources
 * FUTURE OF CLIMATE: [Future climate data](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change)
