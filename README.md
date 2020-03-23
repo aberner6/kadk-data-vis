@@ -251,7 +251,7 @@ Let me know if you have any questions.
 * Afternoon activity:
     - Mini-project: continue documenting your project idea through the template you began working on yesterday: https://drive.google.com/drive/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i?usp=sharing . 
     - Fill out at least steps 3, 4, 5 (audience, sketch, story).    
-    - Office hours
+    - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 
 ### Wednesday March 25
 * Focus: project development
@@ -261,20 +261,22 @@ Let me know if you have any questions.
 ### Thursday March 26 Day 8
 * Focus: project development
 * Morning activity: 
-    - Review: project status
+    - 9 a.m. review: project status
     - Office hours
 * Afternoon activity:
     - Code
-    - Office hours
+    - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
+* Code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed
 
 ### Friday March 27 Day 9
 * Focus: project development
 * Morning activity: 
-    - Review: project status
+    - 9 a.m. review: project status
     - Office hours
 * Afternoon activity:
     - Code
-    - Office hours
+    - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
+* Code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed
 
 ## Part D
 * Finessing
@@ -283,8 +285,7 @@ Let me know if you have any questions.
 * Focus: project development
 * Lecture: 
     - Code: interactions (mouse, animations, explanations)
-* Exercises:
-    - Interactions
+* [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Assignment:
     - Code: integrate
     - Design: assistance
@@ -296,6 +297,7 @@ Let me know if you have any questions.
     - Summary
 * Exercises:
     - Gather documentation
+* [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Assignment:
     - Prepare for presentations
 
