@@ -1,51 +1,47 @@
-var width = 300, height = 300
-var nodes = [{}, {}, {}, {}, {}]
+var width = window.outerWidth;
+var height = window.innerHeight;
 
-var svg = d3.select("#wrapper").append("svg")
-  .attr("width", width)
-  .attr("height", height)
+async function drawData() {
+  let dataset = await d3.csv("flowers.csv")
+  const generalAccess = dataset[5];
+  console.log(generalAccess);
 
-var numNodes = 100
-var nodes = d3.range(numNodes).map(function(d) {
-  return {radius: Math.random() * 25}
-})
+  var canvas = d3.select("#wrapper").append("svg")
+    .attr("width", width)
+    .attr("height", height)
 
-var xScale = d3.scaleLinear()
-  .domain([0, numNodes])
-  .range([0, width])
-var simulation = d3.forceSimulation(nodes)
-  // .force('charge', d3.forceManyBody().strength(5))
-  .force('center', d3.forceCenter(width / 2, height / 2))
-  .force('collision', d3.forceCollide().radius(function(d) {
-    return d.radius
-  }))
-  .force('x', d3.forceX().x(function(d,i) {
-    console.log(xScale(i));
-    return xScale(i);
-  }))
-  .force('y', d3.forceY().y(function(d) {
-    return 0;
-  }))
-  .on('tick', ticked);
+  var datasetLength = dataset.length;
+  var nodes = dataset;
+  console.log(nodes);
 
+  var simulation = d3.forceSimulation(nodes)
+    .force('charge', d3.forceManyBody().strength(10))
+    .force('center', d3.forceCenter(width / 2, height / 2))
+    .force('collision', d3.forceCollide().radius(function(d) {
+      return 10
+    }))
+    .on('tick', ticked)
 
-function ticked() {
-  var u = d3.select('svg')
-    .selectAll('circle')
-    .data(nodes)
+  var angle = 0;
+  function ticked() {
+    var draw = canvas
+      .selectAll('circle')
+      .data(nodes)
 
-  u.enter()
-    .append('circle')
-    .attr('r', 5)
-    .merge(u)
-    .attr('cx', function(d) {
-      return d.x
-    })
-    .attr('cy', function(d) {
-      return d.y
-    })
+    draw.enter()
+      .append("circle")
+      .attr("r", 5)
+      .merge(draw)
+      .attr("transform", function(d,i){
+        angle = (i / (datasetLength/2)) * Math.PI; // Calculate the angle at which the element will be placed.
+                                            // For a semicircle, we would use (i / numNodes) * Math.PI.
+        d.x = (300 * Math.cos(angle)) + (width/2); // Calculate the x position of the element.
+        d.y = (300 * Math.sin(angle)) + (height/2);
+        return "translate(" + d.x + "," + d.y + ")";
+      })
 
-  u.exit().remove()
+    draw.exit().remove()
+  }
 }
-
+drawData();
 
