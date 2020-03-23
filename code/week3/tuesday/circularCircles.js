@@ -2,6 +2,8 @@ async function drawData() {
 /*step 1: load the data*/
 	let dataset = await d3.json("./../../weather_data.json")
 
+
+/*step 2: set up parsers*/
 	const tmprAccessor = function(d){
 		return d.temperatureMax;
 	}
@@ -10,20 +12,11 @@ async function drawData() {
 	const xAccessor = function(d){
 		return dateParser(d.date);
 	} 
+/*step 3: re-sort the data making sure it goes in order of the dates*/	
 	dataset = dataset.sort(function(a,b){ 
 		xAccessor(a) - xAccessor(b)
 	})
 	console.log(dataset);
-// /*step 2: set up a date parser*/
-// 	const dateParser = d3.timeParse("%Y-%m-%d");
-// 	const dateAccessor = function(d){
-// 		return dateParser(d.date);
-// 	} 
-// step 3: re-sort the data making sure it goes in order of the dates
-// 	dataset = dataset.sort(function(a,b){ 
-// 		dateAccessor(a) - dateAccessor(b)
-// 	})
-// 	console.log(dataset);
 
 /*step 4: prepare our overall dimensions*/
 	const width = window.innerWidth * 0.9;
@@ -31,7 +24,7 @@ async function drawData() {
 	let dimensions = {
 	width: width,
 	height: width,
-	radius: width / 2,
+	radius: 5,
 	  margin: {
 	    top: height/2,
 	    right: 50,
@@ -45,7 +38,6 @@ async function drawData() {
 	dimensions.boundedHeight = dimensions.height
 	- dimensions.margin.top
 	- dimensions.margin.bottom
-	dimensions.boundedRadius = dimensions.radius - ((dimensions.margin.left + dimensions.margin.right) / 2)
 
 /*step 5: make our canvas*/
 	const wrapper = d3.select("#wrapper")
@@ -63,7 +55,7 @@ step 4: prepare our scales
 
 	const radiusScale = d3.scaleLinear()
 		.domain(d3.extent(dataset, tmprAccessor))
-		.range([10, dimensions.boundedRadius]);
+		.range([1, dimensions.radius]);
 
 	const thetaAxes = d3.scaleTime()
 		.domain(d3.extent(dataset, xAccessor))
@@ -73,24 +65,21 @@ step 4: prepare our scales
 step 5: draw our lines
 note: geometry!!!
 */
-	const line = bounds.selectAll("lines")
+	const circles = bounds.selectAll("circs")
 		.data(dataset)
 		.enter()
-		.append("line")
-        .attr('x1',function(d){ 
-        	return (Math.cos(thetaAxes(xAccessor(d)))*50);  
+		.append("circle")
+        .attr('cx',function(d){ 
+        	return (Math.cos(thetaAxes(xAccessor(d)))*width/4);  
         })
-        .attr('y1',function(d){ 
-        	return (Math.sin(thetaAxes(xAccessor(d)))*50); 
+        .attr('cy',function(d){ 
+        	return (Math.sin(thetaAxes(xAccessor(d)))*width/4); 
         })
-        .attr('x2',function(d){ 
-        	return (Math.cos(thetaAxes(xAccessor(d)))*(radiusScale(tmprAccessor(d))+50));
+        .attr('r',function(d){ 
+        	return radiusScale(tmprAccessor(d));
         })
-        .attr('y2',function(d){ 
-        	return (Math.sin(thetaAxes(xAccessor(d)))*(radiusScale(tmprAccessor(d))+50));
-        })
-		.attr("stroke-width", .5)
-		.attr("stroke", "black")
+		.attr("fill", "none")
+		.attr("stroke","black");
 }
 drawData()
 
