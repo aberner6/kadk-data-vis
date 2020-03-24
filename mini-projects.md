@@ -3,6 +3,8 @@
     - [Nadieh Bremer](https://www.visualcinnamon.com/2014/12/using-data-storytelling-with-chord.html)
 * [Which graphic for your data](https://www.data-to-viz.com/)
 * [How Many Angles?](https://accuratstudio.wordpress.com/workshop-presentation-2/)
+* [Color picker](https://projects.susielu.com/viz-palette)
+* [Reminder: color scales](https://github.com/d3/d3-scale-chromatic)
 
 ## Data sources
 * FUTURE OF CLIMATE: [Future climate data](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change)
@@ -24,6 +26,10 @@
 * [Visualising the seasons](https://www.flickr.com/photos/stevefaeembra/5349017221/in/photostream/)
 * [D3 Examples - top of list](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#d3)
 
+## Visualisation Types: References
+* [Force layouts](https://www.d3indepth.com/force-layout/)
+* Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
+
 ## Project Ideas: References
 * Water and time: 
     * [Long Now Foundation 10,000 Year Clock](http://longnow.org/clock/prototype1/)
@@ -36,6 +42,9 @@
     * [Keeping Time](http://www.tegabrain.com/Keeping-Time)
     * [Sensing the Shining](http://danielgoddemeyer.com/sensingtheshining.html)
     * [Network Effect](http://number27.org/networkeffect)
-    * [On Broadway:  ]
     * How to [download your photos from instagram](https://www.thesun.co.uk/tech/6137451/how-to-download-instagram-photos-all/) 
 * [About Carbon 13](https://www.esrl.noaa.gov/gmd/outreach/isotopes/c13tellsus.html) and visualising [molecules](https://bl.ocks.org/mbostock/3037015)
+* [One tree](http://www.nyu.edu/projects/xdesign/onetrees/atrees/index.html)
+* [Walking upstream](http://lucasihlein.net/Walking-Upstream-Waterways-of-the-Illawarra)
+* [Wind walks](http://www.timknowles.co.uk/tabid/502/Default.aspx)
+* [Many artistic environmental sensing / visualisation references](https://github.com/tegacodes/EccentricInterfaces/blob/master/practice.md)

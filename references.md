@@ -92,7 +92,7 @@ All of these are from Plubius Syrus.(42 B.C.)
 * [Demos](https://observablehq.com/@agness/introdv-f18-demo-1-data-select-scale)
 
 # VISUALISATION RESOURCES:
-* [General Resources](https://www.visualisingdata.com/resources/)]
+* [General Resources](https://www.visualisingdata.com/resources/)
 * [Choosing the right chart 1](https://github.com/ft-interactive/chart-doctor/blob/master/visual-vocabulary/Visual-vocabulary.pdf)
 * [Choosing the right chart 2](https://www.data-to-viz.com/#explore)
 * [Storytelling 1](http://napa-cards.net/)
