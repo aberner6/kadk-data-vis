@@ -303,5 +303,4 @@ Let me know if you have any questions.
 
 ### Friday April 3 Day 12
 * Focus: presentations
-* Prep: template
-
+* 9 a.m. project presentations: feel free to use your video (the one you will submit to KADK) and present to our group the data visualisation work specifically.

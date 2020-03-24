@@ -2,7 +2,7 @@ var width = window.outerWidth;
 var height = window.innerHeight;
 
 async function drawData() {
-  let dataset = await d3.csv("flowers.csv")
+  const dataset = await d3.csv("./../../flowersMini.csv")
   const generalAccess = dataset[5];
   console.log(generalAccess);
 
