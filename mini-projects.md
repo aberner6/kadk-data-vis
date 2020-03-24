@@ -29,6 +29,8 @@
 ## Visualisation Types: References
 * [Force layouts](https://www.d3indepth.com/force-layout/)
 * Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
+* [Annotations: Oscar Trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
+* [Small multiples: Weather Radials](http://weather-radials.com/)
 
 ## Project Ideas: References
 * Water and time: 
