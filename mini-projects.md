@@ -1,3 +1,6 @@
+## Mini Project Folders
+* Data sources and your project documentation guidance can be found [here](https://drive.google.com/drive/u/1/folders/1w_3njXcsP0w015HQU6F2Ob9yA6KhRGgf)
+
 ## Resources
 * [Storytelling types](http://napa-cards.net/)
     - [Nadieh Bremer](https://www.visualcinnamon.com/2014/12/using-data-storytelling-with-chord.html)
