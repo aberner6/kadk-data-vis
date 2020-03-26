@@ -27,13 +27,13 @@ http://learnjsdata.com/time.html
 		.attr("width", screenWidth) //of this width
 		.attr("height", screenHeight); //and this height
 
-/*step _: set up xscale according to date*/
+/*step 4: set up xscale according to date*/
 	const xScale = d3.scaleTime()
 		.domain(d3.extent(dataset, xAccessor))
 		.range([margin, screenWidth-margin])
 
     console.log(d3.extent(dataset, xAccessor))
-/*step _: set up bar scale according to likes*/
+/*step 5: set up bar scale according to likes*/
 	const domainLikes = function (d) {
 		return parseInt(d.likes);
 	}
@@ -41,16 +41,22 @@ http://learnjsdata.com/time.html
 		.domain(d3.extent(dataset, domainLikes)) //find min and max of what's coming in from my dataseet
 		.range([screenHeight-margin, margin]); //what i want to come out on the screen
 	console.log(d3.extent(dataset, domainLikes))
-/*step _: set up fill scale according to color data*/
+/*step 6: set up fill scale according to color data
+read up here and see if you can figure something out:
+https://observablehq.com/@d3/color-schemes?collection=@d3/d3-scale-chromatic
+https://observablehq.com/@d3/sequential-scales?collection=@d3/d3-scale-chromatic
+https://github.com/d3/d3-scale-chromatic
 
-
-
-/*step 4: draw shapes with random messy positions just to see the data*/	
-
-
-/*step 6: try to redraw the shapes now with at least a scale
-for example... 
+could you make the color defined by the data?
+as in - if there is a color column in your data that says "red" or some hex numbers
+then you could just pull that into your fill like so:
+		.attr("fill",function(d){
+			return d.color
+		})
 */
+
+
+
 /*step 7: use scale to draw shapes on the canvas :) 
 check the week2/friday/bars.js example for more on this
 */
