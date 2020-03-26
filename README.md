@@ -265,8 +265,8 @@ Let me know if you have any questions.
     - How is it going with the mini project? What have you done thus far? What do you need help with? What is your project plan for next steps?
 * Day plan: 
     - Make and share your (extremely) detailed checklists for what to do next… for example, this one: https://docs.google.com/spreadsheets/d/1e6PNbfY69Cc76REKYn04rFK3l5BNUc--vJX1jXQssgc/edit?usp=sharing
-    - If you cannot make the meeting now (this morning) at least write me on slack
-    - If you haven’t done so already, fill out your project documentation template in the mini projects folder and keep it up to date with new sketches, code etc: https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i
+    - If you cannot make the meeting now (this morning) at least write me on slack about your status update.
+    - Check in with your project documentation template in the mini projects folder. Keep it or at least some place on your computer up to date with new sketches, code etc: https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i
     - Check this example and see if you can amend it with your data / visualisation: https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday
     - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed

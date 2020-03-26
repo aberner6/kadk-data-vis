@@ -8,6 +8,8 @@
 * [How Many Angles?](https://accuratstudio.wordpress.com/workshop-presentation-2/)
 * [Color picker](https://projects.susielu.com/viz-palette)
 * [Reminder: color scales](https://github.com/d3/d3-scale-chromatic)
+* [Grabbing physical data](https://display.land/)
+* [Icons](https://thenounproject.com/)
 
 ## Data sources
 * FUTURE OF CLIMATE: [Future climate data](https://www.carbonbrief.org/explainer-how-shared-socioeconomic-pathways-explore-future-climate-change)
@@ -28,6 +30,8 @@
 * [Keeping time: species life cycles](http://www.tegabrain.com/Keeping-Time)
 * [Visualising the seasons](https://www.flickr.com/photos/stevefaeembra/5349017221/in/photostream/)
 * [D3 Examples - top of list](https://github.com/aberner6/kadk-data-vis/blob/master/references.md#d3)
+* [Casey Reas](https://reas.com/)
+* [Aaron Koblin: images](http://www.aaronkoblin.com/project/the-wilderness-downtown/)
 
 ## Visualisation Types: References
 * [Force layouts](https://www.d3indepth.com/force-layout/)
