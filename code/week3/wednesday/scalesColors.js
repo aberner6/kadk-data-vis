@@ -2,6 +2,7 @@
 		.domain([0, dataset.length])
  		.range(["green", "lightgreen", "purple"])
     	.interpolate(d3.interpolateRgb.gamma(2.2))
+		
 	const xScale = d3.scaleLinear()
 		.domain([0, dataset.length]) 
 		.range([margin, screenWidth - margin]) 

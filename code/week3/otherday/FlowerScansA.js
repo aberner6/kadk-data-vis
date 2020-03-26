@@ -236,13 +236,16 @@ async function drawData() {
 		.domain(d3.extent(dataset, flowerDomainY))
 		.range([screenHeight - margin, margin]) 
 	
-
 	//DREAM: make it go through the colors of the flower mapped to the y data
-    const colScale = d3.scaleSequential()
-		.domain(d3.extent(dataset, flowerDomainY))
+    var yMin = d3.min(dataset, function(d){
+    	return parseFloat(d.y);
+    })
+    var yMax = d3.max(dataset, function(d){
+    	return parseFloat(d.y);
+    })
+    const colScale = d3.scaleLinear() 
+		.domain([yMin, yMax/2, yMax])
 		.range(["green","white","purple"])
-
-
 
 	const flowerDomainZ = function(d) {
 		return parseFloat(d.z);
