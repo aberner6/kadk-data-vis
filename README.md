@@ -269,7 +269,7 @@ Let me know if you have any questions.
     - Check in with your project documentation template in the mini projects folder. Keep it or at least some place on your computer up to date with new sketches, code etc: https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i
     - Check this example and see if you can amend it with your data / visualisation: https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday
     - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
-* Code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed
+* 13h: come to the google hangout to discuss code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed
 
 ### Friday March 27 Day 9
 * Focus: project development
@@ -287,6 +287,7 @@ Let me know if you have any questions.
 ### Monday March 30 Day 10
 * Focus: project development
 * Lecture: 
+    - Check in on expectations, questions to answer with your presentations and suggested structure for Friday presentation
     - Code: interactions (mouse, animations, explanations)
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Assignment:

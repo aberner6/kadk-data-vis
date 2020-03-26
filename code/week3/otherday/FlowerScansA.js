@@ -207,15 +207,15 @@ now let's draw our data again and see how good it looks!*/
 
 /*now let's draw our data again and see how good it looks!*/
 async function drawData() {
-	const dataset = await d3.csv("./../../flowers_full.csv")
+	const dataset = await d3.csv("./../../flowers_v.csv")
 	const accessor = dataset[0];
 	console.log(accessor);
 
 	const radius = 1;
 	const color = "#e0f3f3";
 
-	const screenWidth = window.innerWidth * 0.9;
-	const screenHeight = window.innerHeight * 0.9;
+	const screenWidth = window.innerWidth * 0.5;
+	const screenHeight = window.innerHeight * 0.5;
 
 	const margin = radius * 4;
 
@@ -224,27 +224,9 @@ async function drawData() {
 		.attr("width", screenWidth) //of this width
 		.attr("height", screenHeight); //and this height
 
-
-	/*	// code from the main.js file..
-	const foDomain = function (d) {
-	return d.forest;
-	}
-	console.log(d3.extent(dataset, foDomain) + "min and max forest");
-	const yScale = d3.scaleLinear()
-	.domain(d3.extent(dataset, foDomain))
-	.range([screenHeight - margin, margin]) //min goes almost at bottom, max goes almost at top
-	*/
-
-	//ANNELIE: color scale set up
-	const colScale = d3.scaleLinear()
-		.domain([0, dataset.length])
-		.range(["green", "lightgreen", "white", "purple"]) //KASPAR: As I can see it tho colours only goes from green to lightgreen. It's like it only uses the first two colours listed.
-		.interpolate(d3.interpolateRgb.gamma(2.2))
-
 	const xScale = d3.scaleLinear()
 		.domain([0, dataset.length]) 
 		.range([margin, screenWidth - margin]) 
-
 
 	const flowerDomainY = function(d) {
 		return parseFloat(d.y);
@@ -253,6 +235,13 @@ async function drawData() {
 	const yScale = d3.scaleLinear()
 		.domain(d3.extent(dataset, flowerDomainY))
 		.range([screenHeight - margin, margin]) 
+	
+
+	//DREAM: make it go through the colors of the flower mapped to the y data
+    const colScale = d3.scaleSequential()
+		.domain(d3.extent(dataset, flowerDomainY))
+		.range(["green","white","purple"])
+
 
 
 	const flowerDomainZ = function(d) {
@@ -261,13 +250,16 @@ async function drawData() {
 	console.log(d3.extent(dataset, flowerDomainZ) + "min and max z-value");
 	const zScale = d3.scaleLinear()
 		.domain(d3.extent(dataset, flowerDomainZ))
-		.range([margin, screenWidth - margin])
+		.range([1, 10])
+	const oScale = d3.scaleLinear()
+		.domain(d3.extent(dataset, flowerDomainZ))
+		.range([.1, .7])
 
 
 	const flowerDomainX = function(d) {
 		return parseFloat(d.x);
 	}
-	console.log(d3.extent(dataset, flowerDomainX) + "min and max z-value");
+	console.log(d3.extent(dataset, flowerDomainX) + "min and max x-value");
 	const xSpread = d3.scaleLinear()
 		.domain(d3.extent(dataset, flowerDomainX))
 		.range([margin, screenWidth - margin])
@@ -278,33 +270,28 @@ async function drawData() {
 		.data(dataset)
 		.enter().append("circle")
 		.attr("cx", function (d) {			
-			return xSpread(parseFloat(d.x));	/*KASPAR: Im devided it by 2.5 because it was streching the flowers. 
-													The problem is that it doesn't show the entire vase only half.. I do not know why :) */
+			return xSpread(parseFloat(d.x));
 		})
 		.attr("cy", function (d) {
 			return yScale(parseFloat(d.y)); 
 		})
-		.attr("r", 1)
-		
+		.attr("r", function(d){
+			return zScale(parseFloat(d.z));
+		})
 		.attr("fill", function (d, i) {		
 													/*KASPAR: - Annelie: how should the color know that it should change? 
 													- I would like the colour to change based on the z - value.I also like that it gradually changes, 
 													But it could be nice if it had som information in it..*/
-			// console.log(i);
-			return colScale(i);
-			
-		
+			return colScale(parseFloat(d.y));
 		})
-		.attr("opacity", .9) 
+		.attr("opacity", function(d){
+			return oScale(parseFloat(d.z));
+		})
+		.attr("stroke", function (d, i) {
+			return colScale(parseFloat(d.y));
+		})
+		.attr("stroke-opacity",1);
 }
 
 
 drawData();
-
-
-
-
-
-
-
-
