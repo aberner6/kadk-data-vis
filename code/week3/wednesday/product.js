@@ -81,5 +81,11 @@ testing
 		.attr("height", 50)
 		.attr("stroke","white")
 		.attr("fill", "lightgreen")
+		.on("click", function(d){
+			d3.select(this)
+				.transition()
+				.duration(2000)
+				.attr("x", screenWidth/2);
+		})
 }
 drawData();

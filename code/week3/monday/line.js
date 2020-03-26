@@ -136,10 +136,13 @@ which we have set up to choose certain aspects of that data and map them to our 
       return yScale(yAccessor(d));
     })
 
+  const colScale = d3.scaleLinear()
+    .domain([0, dataset.length])
+    .range(["green", "lightgreen", "purple"])
+    .interpolate(d3.interpolateRgb.gamma(2.2))
+
   const line = bounds.append("path")
       .attr("d", lineGenerator(dataset))
-      .attr("fill", "none")
-      .attr("stroke", "#af9358")
       .attr("stroke-width", 2)
 
 /* 
