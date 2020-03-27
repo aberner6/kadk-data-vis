@@ -289,7 +289,7 @@ Let me know if you have any questions.
 * Focus: project development
 * Lecture: 
     - Check in on expectations, questions to answer with your presentations and suggested structure for Friday presentation
-    - Code: interactions (mouse, animations, explanations)
+    - Tutorial: how to create networks
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Goal: 
     - By the end of Monday, your visualisation should be working at least in its most basic, "minimum viable product" form

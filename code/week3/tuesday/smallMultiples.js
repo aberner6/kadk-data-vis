@@ -76,8 +76,8 @@ step 4: prepare our scales
         .range(["#12CBC4", "#B53471"]) 
         .interpolate(d3.interpolateHcl);
 /*
-step 5: draw our lines
-note: geometry!!!
+step 5: draw our days
+note: grid!!!
 */
 
     var days = bounds.selectAll(".day")
@@ -90,10 +90,10 @@ note: geometry!!!
       .append('g')
       .classed('day', true)
       .attr("transform", function(d,i){
-        if( i % 31 == 0 ){ 
+        if( i % 7 == 0 ){ 
           row++; 
         }
-        return "translate(" + (( i % 31 + 1 ) * xOffset - .5 * xOffset) + ", "+(row * yOffset - .5 * yOffset)+")";
+        return "translate(" + (( i % 7 + 1 ) * xOffset - .5 * xOffset) + ", "+(row * yOffset - .5 * yOffset)+")";
       })
 
     enteringDay

@@ -1,0 +1,9 @@
+PassengerId,Survived,Pclass,family,name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,Braund,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+2,1,1,,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
+7,0,1,,"McCarthy, Mr. Timothy J",male,54,0,0,17463,51.8625,E46,S
+8,0,3,,"Palsson, Master. Gosta Leonard",male,2,3,1,349909,21.075,,S
+9,1,3,,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",female,27,0,2,347742,11.1333,,S
+478,0,3,Braund,"Braund, Mr. Lewis Richard",male,29,1,0,3460,7.0458,,S
+645,1,3,Baclini,"Baclini, Miss. Eugenie",female,0.75,2,1,2666,19.2583,,C
+859,1,3,Baclini,"Baclini, Mrs. Solomon (Latifa Qurban)",female,24,0,3,2666,19.2583,,C

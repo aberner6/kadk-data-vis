@@ -10,43 +10,13 @@ async function drawData() {
 /*step 2: define dimensions of canvas*/
 	const screenWidth = window.innerWidth * 0.9;
 	const screenHeight = window.innerHeight * 0.9;
-	const margin = 10;
+	const margin = 30;
 
 /*step 3: make the canvas*/
 	const myCanvas = d3.select("#wrapper") //grab this element with the idea of wrapper
 		.append("svg") //add an SVG canvas
 		.attr("width", screenWidth) //of this width
 		.attr("height", screenHeight); //and this height
-
-/*step 4: begin drawing with data
-testing: see if we can make one shape per data item
-*/
-	// const dataRect = myCanvas.selectAll("dRects")
-	// 	.data(dataset)
-	// 	.enter()
-	// 	.append("rect")
-	// 	.attr("x", 100)
-	// 	.attr("y", 100)
-	// 	.attr("width", 50)
-	// 	.attr("height", 50)
-	// 	.attr("fill", "lightgreen")
-	// 	.attr("opacity", .1)
-
-/*step 5: can we use the data in the shapes?
-testing
-*/
-	// const dataRect = myCanvas.selectAll("dRects")
-	// 	.data(dataset)
-	// 	.enter()
-	// 	.append("rect")
-	// 	.attr("x", function(d) {		
-	// 		return d.water;
-	// 	})
-	// 	.attr("y", 100)
-	// 	.attr("width", 50)
-	// 	.attr("height", 50)
-	// 	.attr("fill", "lightgreen")
-	// .attr("opacity", .1)
 
 /*step 6: set up scales so the data can be proportional to the canvas size etc.
 */
@@ -59,33 +29,68 @@ testing
 
 	const yScale = d3.scaleLinear()
 		.domain(d3.extent(dataset, domainWater)) //find min and max
-		.range([0, screenHeight]);
+		.range([margin, screenHeight]);
+	
+	const widthScale = d3.scaleLinear()
+		.domain(d3.extent(dataset, domainWater)) //find min and max
+		.range([margin, screenWidth-margin]);
 
 	console.log(d3.extent(dataset, domainWater)); //check that this works
 
 /*step 7: use scale to draw shapes on the canvas :) */
-	const dataRect = myCanvas.selectAll("dRects")
+	// const dataRect = myCanvas.selectAll("dRects")
+	// 	.data(dataset)
+	// 	.enter()
+	// 	.append("rect")
+	// 	.attr("class", function(d){
+	// 		return d.product;
+	// 	})
+	// 	.attr("x", function(d){
+	// 		return screenWidth/2-widthScale(parseInt(d.water))/2;
+	// 	})
+	// 	.attr("y", function(d){
+	// 		return yScale(parseInt(d.water));
+	// 	})
+	// 	.attr("width", function(d){
+	// 		return widthScale(parseInt(d.water));
+	// 	})
+	// 	.attr("height", 1)
+	// 	.attr("fill", "black")
+
+	const dataLine = myCanvas.selectAll("dLines")
 		.data(dataset)
 		.enter()
-		.append("rect")
+		.append("line")
 		.attr("class", function(d){
 			return d.product;
 		})
-		.attr("x", function(d) {		
-			return xScale(parseInt(d.water));
+		.attr("x1", function(d){
+			return screenWidth/2-widthScale(parseInt(d.water))/2;
 		})
-		.attr("y", function(d){
+		.attr("y1", function(d){
 			return yScale(parseInt(d.water));
 		})
-		.attr("width", 50)
-		.attr("height", 50)
-		.attr("stroke","white")
-		.attr("fill", "lightgreen")
-		.on("click", function(d){
-			d3.select(this)
-				.transition()
-				.duration(2000)
-				.attr("x", screenWidth/2);
+		.attr("x2", function(d){
+			return screenWidth/2+widthScale(parseInt(d.water))/2;
+		})
+		.attr("y2", function(d){
+			return yScale(parseInt(d.water));
+		})
+		.attr("stroke", "blue");
+
+	const icons = myCanvas.selectAll("icons")
+		.data(dataset)
+		.enter()
+		.append('image')
+	    .attr('xlink:href', function(d,i){
+	    	console.log(d.product);
+	    	return 'icons/'+d.product+'.svg';
+	    })
+	    .attr('width', 10)
+	    .attr('height', 10)
+	    .attr("x", screenWidth/2)
+	    .attr("y", function(d){
+			return yScale(parseInt(d.water));
 		})
 }
 drawData();
