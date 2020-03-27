@@ -92,5 +92,27 @@ async function drawData() {
 	    .attr("y", function(d){
 			return yScale(parseInt(d.water));
 		})
+
+	const text = myCanvas.selectAll(".waterNums")
+		.data(dataset)
+		.enter()
+		.append('text')
+		.attr("class", "waterNums")
+	    .attr("x", function(d,i){
+	    	console.log(i);
+	    	if(i<dataset.length/2){
+	    		console.log(i)
+	    		return screenWidth/2; //some number
+	    	}
+	    	else{
+	    		return 10;
+	    	}
+	    })
+	    .attr("y", function(d){
+			return yScale(parseInt(d.water));
+		})
+		.text(function(d){
+			return d.water; 
+		})
 }
 drawData();
