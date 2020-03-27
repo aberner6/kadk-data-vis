@@ -269,12 +269,13 @@ Let me know if you have any questions.
     - Check in with your project documentation template in the mini projects folder. Keep it or at least some place on your computer up to date with new sketches, code etc: https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i
     - Check this example and see if you can amend it with your data / visualisation: https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday
     - [Office hours](https://calendly.com/a-berner/kadk-office-hours)
-* 13h: come to the google hangout to discuss code for animation, interaction and project-specific visualisations will be shared and I will record/be available to give a tutorial walking through that code as needed
+* 13h: Animation and mouseover tutorial
 
 ### Friday March 27 Day 9
 * Focus: project development
 * Morning activity: 
-    - 9 a.m. review: project status
+    - 9 a.m. review: project status: how are you doing, what have you done yesterday, what are you working on today and what do you need help on?
+    - 10:30 Small Multiples tutorial
     - Office hours
 * Afternoon activity:
     - Code
@@ -290,9 +291,8 @@ Let me know if you have any questions.
     - Check in on expectations, questions to answer with your presentations and suggested structure for Friday presentation
     - Code: interactions (mouse, animations, explanations)
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours)
-* Assignment:
-    - Code: integrate
-    - Design: assistance
+* Goal: 
+    - By the end of Monday, your visualisation should be working at least in its most basic, "minimum viable product" form
 
 ### Tuesday March 31 Day 11
 * Focus: presentation
