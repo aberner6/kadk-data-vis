@@ -38,6 +38,17 @@
 * Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
 * [Annotations: Oscar Trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 * [Small multiples: Weather Radials](http://weather-radials.com/)
+    - [Introduction video](https://www.dropbox.com/s/yltksgmsvgjdy58/intro_transform_smallMultiples.mov?dl=0)
+    - [The "G" element and transforms](https://www.dashingd3js.com/svg-group-element-and-d3js)
+    - [Reference code 1: small multiples in grid based on index](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/tuesday/smallMultiples.js) 
+    - [Reference code 2: small multiples grouped by dates](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/photos/sofia.js)
+    - [Defintion: Transform : translate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
+    - [Making a grid: %](https://medium.com/@eesur/d3-modulo-operation-to-create-a-grid-f47101831a)
+* Images and text in d3
+    - [Introduction video](https://www.dropbox.com/s/imzlhoor10rlzoy/workingwithimgs_and_txt.mov?dl=0)
+    - [Image reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image)
+    - [Text reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text)   
+    - [Reference code 1: loading icons and drawing text according to data: product.js file](https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday) 
 
 ## Project Ideas: References
 * Water and time: 
