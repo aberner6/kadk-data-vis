@@ -293,7 +293,6 @@ Let me know if you have any questions.
 * Assignment:
     - Code: integrate
     - Design: assistance
-    - Theory: fulfill template
 
 ### Tuesday March 31 Day 11
 * Focus: presentation
@@ -308,3 +307,7 @@ Let me know if you have any questions.
 ### Friday April 3 Day 12
 * Focus: presentations
 * 9 a.m. project presentations: feel free to use your video (the one you will submit to KADK) and present to our group the data visualisation work specifically.
+* For video:
+    - Process of learning (data analysis, ideas, etc), process of mini-project
+    - Output of mini project - the visualisation AND title, legend, explanation of data (and where it comes from, what you found out about it)
+    - Remember: fonts, color choices, layout
