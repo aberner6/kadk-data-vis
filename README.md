@@ -289,7 +289,7 @@ Let me know if you have any questions.
 * Focus: project development
 * Lecture: 
     - Check in on expectations, questions to answer with your presentations and suggested structure for Friday presentation
-    - Tutorial: how to create networks
+    - 15:30: Tutorial: how to create networks
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Reach goal: 
     - By the end of Monday, your visualisation should be working at least in its most basic, "minimum viable product" form
@@ -298,7 +298,7 @@ Let me know if you have any questions.
 * Focus: presentation
 * Lecture: 
     - 9: Light visual critique and suggestions, help, helper code session
-    - How to add accompanying information surrounding your visualisation
+    - Tutorial: how to add accompanying information surrounding your visualisation
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours)
 * Repeating goal: 
     - Your visualisation should be working at least in its most basic, "minimum viable product" form
@@ -307,6 +307,7 @@ Let me know if you have any questions.
 
 ### Wednesday, Thursday - April 1, 2
 * Focus: presentation
+* [Office hours](https://calendly.com/a-berner/kadk-office-hours?month=2020-04)
 * Prepare: 
     - Collect: process of learning (data analysis, ideas, etc), process of mini-project (for example, presented as a grid of many sketches, screenshots)
     - Show: output of mini project - the visualisation AND title, legend, explanation of data (and where it comes from, what you found out about it), the story you would like to share with the audience
