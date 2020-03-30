@@ -112,6 +112,7 @@ async function drawData() {
 		.text(function(d){
 			return d.water; 
 		})
+		
 	const whiteLine = myCanvas
 		.append("line")
 		.attr("x1", screenWidth/2)
