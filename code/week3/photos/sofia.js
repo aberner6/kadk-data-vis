@@ -25,8 +25,8 @@ http://learnjsdata.com/time.html
 /*step 2: define dimensions of canvas*/
 	const screenWidth = window.innerWidth * 0.9;
 	const screenHeight = window.innerHeight * 0.9;
-	const margin = 30;
-
+	const marginTop = screenHeight/2;
+    const margin = 30;
 /*step 3: make the canvas*/
 	const myCanvas = d3.select("#wrapper") //grab this element with the idea of wrapper
 		.append("svg") //add an SVG canvas
@@ -47,7 +47,7 @@ http://learnjsdata.com/time.html
     const enteringYear = years.enter()
       .append('g')
       .attr("transform", function(d){
-      	return "translate("+xScale(xAccessor(d))+","+margin+")";
+      	return "translate("+xScale(xAccessor(d))+","+marginTop+")";
       })
 
 
@@ -77,8 +77,12 @@ fake code... :
 		.range([]) //range this should map to on the screen [5, 15]
 
 */
+    const maxTotals = d3.max(totals);
+    const radiusScale = d3.scaleLinear()
+        .domain([0, maxTotals]) //minimum year to maximum posts... for ex: [1 post to 10000 posts]
+        .range([0, 100]) //range this should map to on the screen [5, 15]
 
-
+    console.log(maxTotals)
 
 /*step 8: on each of those year "canvases", draw circles
 there is one circle per post
@@ -94,11 +98,10 @@ it should relate to "i" which is the index counting how many posts there are in 
         	return xAccessor(d); //if you inspect the elements in the console, you can see that each circle has its year as a class
         })
         .attr("r", function(d,i){
-        	console.log(totals[i])
-        	return totals[i]; //note: this is not scaled according to the min and max it could be! could go off the canvas or whatever!
+        	return radiusScale(totals[i]); //note: this is not scaled according to the min and max it could be! could go off the canvas or whatever!
         })
         .attr("fill", "teal")
         .attr("stroke", "white")
-        .attr("opacity", .2)
+        .attr("opacity", .1)
 }
 drawData();

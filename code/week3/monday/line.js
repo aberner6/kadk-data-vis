@@ -144,6 +144,7 @@ which we have set up to choose certain aspects of that data and map them to our 
   const line = bounds.append("path")
       .attr("d", lineGenerator(dataset))
       .attr("stroke-width", 2)
+      .attr("fill","none")
 
 /* 
 step 6: draw axes, labels
