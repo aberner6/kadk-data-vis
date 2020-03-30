@@ -1,64 +1,7 @@
-#infoTitle{
-	top: 4px;
-	right: 12px;
-	width: 200px;	
-
-	padding: 3px;
-
-	border-left: 1px gray solid;
-	border-right: 1px gray solid;
-	border-bottom: 1px gray solid;
-	
-	background-color:rgba(80, 80, 80, .8);
-	position:absolute;
-
-	color: white;
-	display:none;
-}
-#info{
-	top: 34px;
-	right: 12px;
-	width: 200px;	
-	padding: 3px;
-
-	border-left: 1px gray solid;
-	border-right: 1px gray solid;
-	border-bottom: 1px gray solid;
-	
-	background-color:rgba(80, 80, 80, .8);
-	position:absolute;
-
-	color: white;
-	text-transform: uppercase;
-	display:none;
-}
-
-
-
-
-
-#tooltip {
-	position: absolute;
-	width: 200px;
-	height: auto;
-	padding: 10px;
-	background-color: white;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-	pointer-events: none;
-}
-
-#tooltip.hidden {
-	display: none;
-}
-
-#tooltip p {
-	margin: 0;
-	font-family: sans-serif;
-	font-size: 16px;
-	line-height: 20px;
+.link{
+	/*fill: rgb(226, 226, 226);*/
+	fill: none;
+	opacity:1;
+	/*stroke: #666;*/
+	/*stroke-width: .3px;*/
 }
