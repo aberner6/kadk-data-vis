@@ -37,18 +37,27 @@
 * [Force layouts](https://www.d3indepth.com/force-layout/)
 * Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
 * [Annotations: Oscar Trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
-* [Small multiples: Weather Radials](http://weather-radials.com/)
-    - [Introduction video](https://www.dropbox.com/s/yltksgmsvgjdy58/intro_transform_smallMultiples.mov?dl=0)
+* Small multiples
+    - [Code tutorial video](https://www.dropbox.com/s/yltksgmsvgjdy58/intro_transform_smallMultiples.mov?dl=0)
+    - [Inspiration: Weather Radials](http://weather-radials.com/)
     - [The "G" element and transforms](https://www.dashingd3js.com/svg-group-element-and-d3js)
     - [Reference code 1: small multiples in grid based on index](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/tuesday/smallMultiples.js) 
     - [Reference code 2: small multiples grouped by dates](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/photos/sofia.js)
-    - [Defintion: Transform : translate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
+    - [Definition: Transform : translate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
     - [Making a grid: %](https://medium.com/@eesur/d3-modulo-operation-to-create-a-grid-f47101831a)
 * Images and text in d3
-    - [Introduction video](https://www.dropbox.com/s/imzlhoor10rlzoy/workingwithimgs_and_txt.mov?dl=0)
+    - [Code tutorial video](https://www.dropbox.com/s/imzlhoor10rlzoy/workingwithimgs_and_txt.mov?dl=0)
     - [Image reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image)
-    - [Text reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text)   
+    - [Text reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text) and note the various [text-anchor options](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor) that you can use to align text left, center or right (start, middle, end)  
     - [Reference code 1: loading icons and drawing text according to data: product.js file](https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday) 
+* Force-directed networks
+    - [Code tutorial video](https://www.dropbox.com/s/1fh92iirtdkz3n6/networks.mov?dl=0)
+    - [Inspiration: Moritz Stefaner](https://truth-and-beauty.net/projects/open-systems-wall-display)
+    - [The "G" element and transforms](https://www.dashingd3js.com/svg-group-element-and-d3js)
+    - [Reference code 1: small multiples in grid based on index](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/tuesday/smallMultiples.js) 
+    - [Reference code 2: small multiples grouped by dates](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/photos/sofia.js)
+    - [Definition: Transform : translate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
+    - [Making a grid: %](https://medium.com/@eesur/d3-modulo-operation-to-create-a-grid-f47101831a)
 
 ## Project Ideas: References
 * Water and time: 

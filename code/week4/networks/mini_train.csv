@@ -1,0 +1,5 @@
+PassengerId,survived,Pclass,name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0,3,"Braund, Mr. Owen Harris",male,22,1,0,A/5 21171,7.25,,S
+2,1,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
+478,0,3,"Braund, Mr. Lewis Richard",male,29,1,0,3460,7.0458,,S
+478,0,3,"Braund, Lady Sophie",female,29,1,0,3460,7.0458,,S
