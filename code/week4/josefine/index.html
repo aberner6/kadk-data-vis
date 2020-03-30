@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>Tuesday March 24</title>
+		<title>Josefine</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<div id="background"></div>
-		<div id="wrapper">
-		</div>
+        <h1 id="Overskrift">The Tea Drinking World</h1>
+
+    	<div class="double"><img src="World.png"></div></div>
+
 		<!-- this is where our chart will live -->
+        <div id="wrapper">
+        </div>
+
+		<div id="tooltip" class="hidden">
+			<p><strong>Country is:</strong></p>
+			<p><span id="value">100</span> name</p>
+		</div>
+
 
         <script src="./../../d3.v5.js"></script>
         <!-- we are now loading the latest version of the d3 library so we have access to the whole library -->
 
-		<script src = "radials.js"></script>
+		<script src = "main.js"></script>
 		<!-- and after that, we can load our own javascript, which has to come After, because otherwise when we reference d3 in main.js our program will have no idea what we are referencing -->
 
 	</body>

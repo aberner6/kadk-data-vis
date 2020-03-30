@@ -1,0 +1,28 @@
+country ,teaperson,teacountry,type1,milknsugar,continent,ycoor,xcoor,opacity
+Turkey,2.94,222.75,Black,Sugar,Europe,31,145,0.80
+Ireland,2.15,0.00,Black,Milk,Europe,17,102,0.6
+Uzbekistan,2.06,60.48,Green,None,Asia,29,174,1
+United Kingdom,1.67,105.47,Black,Both,Europe,16,108,0.4
+Pakistan,1.50,277.81,Chai,Milk,Asia,40,180,0.6
+Kazakhstan,1.50,0.00,Black,None,Asia,22,178,1
+Russia,1.35,194.39,Black,Sugar,Asia,10,210,0.8
+Tunesia,1.24,0.00,Green,Sugar,Africa,36,119,0.8
+Morocco,1.17,39.19,Green,Sugar,Africa,38,105,0.8
+New Zealand,1.17,0.00,Black,None,Australia,111,284,1
+Algeria,1.08,43.00,Green,Sugar,Africa,42,113,0.8
+Azerbaijan,1.06,0.00,Black,Sugar,Asia,30,157,0.8
+Japan,0.98,124.26,Green,None,Asia,34,248,1
+Egypt,0.97,80.43,Black,Sugar,Africa,43,113,0.8
+Saudi Arabia,0.87,25.51,Black,Sugar,Asia,45,155,0.8
+South Africa,0.84,41.98,Rooibos,Sugar,Africa,99,134,0.8
+Iran,0.81,63.68,Black,Sugar,Asia,38,163,0.8
+Poland,0.78,30.07,Black,Sugar,Europe,18,130,0.8
+Chile,0.75,0.00,Black,None,South America,100,39,1
+Australia,0.71,0.00,Black,Milk,Australia,97,243,0.6
+China,0,548.043,Green,None,Asia,35,215,1
+India,0,401.277,Chai,Both,Asia,50,187,0.4
+United States,0,73.155,Iced Tea,Sugar,North America,32,13,0.8
+Germany,0,57.585,Black,Both,Europe,19,119,0.4
+Indonesia,0,112.761,Black,Both,Asia,75,230,0.4
+Bangladesh,0,29.111,Chai,Both,Asia,46,200,0.4
+Ukraine,0,26.645,Chai,Sugar,Europe,21,142,0.8

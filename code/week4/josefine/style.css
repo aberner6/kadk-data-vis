@@ -1,0 +1,61 @@
+#background {
+/*    background-image: linear-gradient(#dffffa, #73cfe4);
+*/
+	background-image: url("World.png");    
+}
+#wrapper{
+	position: absolute;
+    top: 100px;	
+}
+
+.double{
+    display: inline-block;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.double img{
+    transform: scale(1.3);
+    margin-left: 200px;
+}
+
+body {
+    background-color: #dffffa;
+}
+#Overskrift {
+	color: rgb( 43, 116, 134);
+	font-family: "Calibri";
+	font-size: 3em;
+	line-height: 1.2em;
+	text-align: center;
+    margin-top: 20px;
+}
+
+
+
+#tooltip {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	padding: 10px;
+	background-color: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	pointer-events: none;
+}
+
+#tooltip.hidden {
+	display: none;
+}
+
+#tooltip p {
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}
