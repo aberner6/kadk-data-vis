@@ -49,6 +49,7 @@
     - [Image reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/image)
     - [Text reference](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/text) and note the various [text-anchor options](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/text-anchor) that you can use to align text left, center or right (start, middle, end)  
     - [Reference code 1: loading icons and drawing text according to data: product.js file](https://github.com/aberner6/kadk-data-vis/tree/master/code/week3/wednesday) 
+    - [Reference code 2: positioning text](https://github.com/aberner6/kadk-data-vis/tree/master/code/week4/rosa)
 * Force-directed networks
     - [Code tutorial video](https://www.dropbox.com/s/1fh92iirtdkz3n6/networks.mov?dl=0)
     - [Inspiration: Moritz Stefaner](https://truth-and-beauty.net/projects/open-systems-wall-display)

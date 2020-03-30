@@ -1,0 +1,24 @@
+body{
+	font-family: 'Source Code Pro', monospace;
+}
+
+h4{
+	margin-top: 27px;
+}
+
+#sketch-holder{
+	border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+#sketch-holder canvas{
+	display: block;
+	margin: 10px auto;
+}
+
+#description p, #learning p{
+	border-bottom: 1px dashed black;
+	padding-bottom: 20px;
+}
