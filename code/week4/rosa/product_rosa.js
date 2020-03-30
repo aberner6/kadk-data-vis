@@ -43,7 +43,6 @@ async function drawData() {
 	console.log(d3.extent(dataset, domainWater)); //check that this works
 
 /*step 7: use scale to draw shapes on the canvas :) */
-
 	const dataLine = myCanvas.selectAll("dLines")
 		.data(dataset)
 		.enter()
@@ -63,7 +62,8 @@ async function drawData() {
 		.attr("y2", function(d, i) {
             return yScale(i);
         })  
-		.attr("stroke", "blue");
+		.attr("stroke", "blue")
+		// .attr("stroke-width",4)
 
 	const icons = myCanvas.selectAll("icons")
 		.data(dataset)
@@ -77,7 +77,6 @@ async function drawData() {
 	    .attr("x", screenWidth/2)
 	    .attr("y", function(d,i){
             return yScale(i);
-			// return yScale(parseInt(d.water));
 		})
 
 	const textLeft = myCanvas.selectAll(".waterNumsL")
@@ -108,10 +107,18 @@ async function drawData() {
 	    .attr("y", function(d,i){
             return yScale(i);
 		})
-		.attr("text-anchor","end")
+		.attr("text-anchor","start")
 		// .attr("dx", 4)
 		.text(function(d){
 			return d.water; 
 		})
+	const whiteLine = myCanvas
+		.append("line")
+		.attr("x1", screenWidth/2)
+		.attr("x2", screenWidth/2)
+		.attr("y1", 0)
+		.attr("y2", screenHeight)
+		.attr("stroke","white")
+		.attr("stroke-width",50)
 }
 drawData();
