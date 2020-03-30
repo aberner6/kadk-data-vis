@@ -308,7 +308,8 @@ Let me know if you have any questions.
 ### Wednesday, Thursday - April 1, 2
 * Focus: presentation
 * [Office hours](https://calendly.com/a-berner/kadk-office-hours?month=2020-04)
-* Prepare: 
+* Prepare your presentations: 
+    - Feel free to use the documentation template that you started on [google drive](https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i) 
     - Collect: process of learning (data analysis, ideas, etc), process of mini-project (for example, presented as a grid of many sketches, screenshots)
     - Show: output of mini project - the visualisation AND title, legend, explanation of data (and where it comes from, what you found out about it), the story you would like to share with the audience
     - Add: If I had 4 more weeks, I would... 
