@@ -34,7 +34,6 @@
 * [Aaron Koblin: images](http://www.aaronkoblin.com/project/the-wilderness-downtown/)
 
 ## Visualisation Types: References
-* [Force layouts](https://www.d3indepth.com/force-layout/)
 * Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
 * [Annotations: Oscar Trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 * Small multiples
@@ -53,11 +52,10 @@
 * Force-directed networks
     - [Code tutorial video](https://www.dropbox.com/s/1fh92iirtdkz3n6/networks.mov?dl=0)
     - [Inspiration: Moritz Stefaner](https://truth-and-beauty.net/projects/open-systems-wall-display)
-    - [The "G" element and transforms](https://www.dashingd3js.com/svg-group-element-and-d3js)
-    - [Reference code 1: small multiples in grid based on index](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/tuesday/smallMultiples.js) 
-    - [Reference code 2: small multiples grouped by dates](https://github.com/aberner6/kadk-data-vis/blob/master/code/week3/photos/sofia.js)
-    - [Definition: Transform : translate](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/transform)
-    - [Making a grid: %](https://medium.com/@eesur/d3-modulo-operation-to-create-a-grid-f47101831a)
+    - [Reference code: data processing for "keyword" network visualisation](https://github.com/aberner6/kadk-data-vis/tree/master/code/week4/networks) 
+    - [Force layout tutorial](https://www.d3indepth.com/force-layout/)
+    - [d3 force network reference](https://github.com/d3/d3-force)
+    - [d3 force network examples](https://observablehq.com/collection/@d3/d3-force)
 
 ## Project Ideas: References
 * Water and time: 
