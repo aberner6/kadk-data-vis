@@ -80,13 +80,30 @@ async function drawData() {
 			// return yScale(parseInt(d.water));
 		})
 
-	const text = myCanvas.selectAll(".waterNums")
+	const textLeft = myCanvas.selectAll(".waterNumsL")
 		.data(dataset)
 		.enter()
 		.append('text')
-		.attr("class", "waterNums")
+		.attr("class", "waterNumsL")
 	    .attr("x", function(d,i){
 			return screenWidth/2-widthScale(parseInt(d.water))/2;
+	    })
+	    .attr("y", function(d,i){
+            return yScale(i);
+		})
+		.attr("text-anchor","end")
+		// .attr("dx", 4)
+		.text(function(d){
+			return d.water; 
+		})
+
+	const textRight = myCanvas.selectAll(".waterNumsR")
+		.data(dataset)
+		.enter()
+		.append('text')
+		.attr("class", "waterNumsR")
+	    .attr("x", function(d,i){
+			return screenWidth/2+widthScale(parseInt(d.water))/2;
 	    })
 	    .attr("y", function(d,i){
             return yScale(i);
