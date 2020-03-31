@@ -111,7 +111,7 @@ async function drawData() {
 	        for (i=0; i<dataset.length; i++){ //for the whole dataset
 	            for (j=0; j<uniqueMostKeyed.length; j++){ //and the unique keywords
 	                if (keywords[i].indexOf(uniqueMostKeyed[j])!=-1){ //if a keyword in the dataset is the same as one of the unique keywords
-	                    links.push({"source":keywords[i],"target":uniqueMostKeyed[j],"title":dataset[i].name,"survived":dataset[i].survived}) //set them as sources and targets
+	                    links.push({"source":keywords[i],"target":uniqueMostKeyed[j],"title":dataset[i].name,"survived":dataset[i].survived,"pClass":dataset[i].pclass}) //set them as sources and targets
 	                }
 	            }
 	        }
@@ -123,7 +123,7 @@ async function drawData() {
         var maxWeight;
 
         links.forEach(function(link) {
-          link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, title:link.title, survive: link.survived});
+          link.source = nodes[link.source] || (nodes[link.source] = {name: link.source, title:link.title, survive: link.survived, pClass: link.pClass});
           link.target = nodes[link.target] || (nodes[link.target] = {name: link.target});
 
         });
@@ -175,7 +175,17 @@ async function drawData() {
                     } 
                 }
             })
-            .attr("opacity", .4)
+            .attr("opacity", function(d){
+                if(d.pClass==1){
+                    return .3;
+                }
+                if(d.pClass==2){
+                    return .5;
+                }
+                if(d.pClass==3){
+                    return .9;
+                }
+            })
             .attr("stroke", function(d,i){
                 if(howLong.length>0){    
                     if (howLong[i][0].length == 1) {

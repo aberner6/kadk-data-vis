@@ -1,10 +1,23 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size:10px;
+}
+h1{
+    font-size: 24px;
+    margin-left: 10px;
+    margin-top: 31px;
+}
+.description{
+    width: 19%;
+    margin-left: 10px;
+}
+
+
 .waterNumsL{
-	font-size: 26px;
-    font-family: cursive;
+	/*font-size: 26px;*/
 }
 .waterNumsR{
-	font-size: 26px;
-    font-family: cursive;
+	/*font-size: 26px;*/
 }
 
 #infoTitle{

@@ -33,7 +33,7 @@
 * [Casey Reas](https://reas.com/)
 * [Aaron Koblin: images](http://www.aaronkoblin.com/project/the-wilderness-downtown/)
 
-## Visualisation Types: References
+## Mini-Project-Related Tutorials
 * Visualising [molecules](https://bl.ocks.org/mbostock/3037015)
 * [Annotations: Oscar Trailers](http://www.nytimes.com/interactive/2013/02/19/movies/awardsseason/oscar-trailers.html)
 * Small multiples
