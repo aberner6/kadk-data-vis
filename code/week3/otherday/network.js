@@ -34,14 +34,14 @@ async function drawData() {
       .attr("r", radius)
       .merge(draw)
       .attr("transform", function(d,i){
-          d.x = Math.max(radius, Math.min(width - radius, d.x));
-          d.y = Math.max(radius, Math.min(height - radius, d.y));   
-          return "translate(" + d.x+ "," + d.y + ")";
-        // angle = (i / (datasetLength/2)) * Math.PI; // Calculate the angle at which the element will be placed.
-        //                                     // For a semicircle, we would use (i / numNodes) * Math.PI.
-        // d.x = (300 * Math.cos(angle)) + (width/2); // Calculate the x position of the element.
-        // d.y = (300 * Math.sin(angle)) + (height/2);
-        // return "translate(" + d.x + "," + d.y + ")";
+          // d.x = Math.max(radius, Math.min(width - radius, d.x));
+          // d.y = Math.max(radius, Math.min(height - radius, d.y));   
+          // return "translate(" + d.x+ "," + d.y + ")";
+        angle = (i / (datasetLength/2)) * Math.PI; // Calculate the angle at which the element will be placed.
+                                            // For a semicircle, we would use (i / numNodes) * Math.PI.
+        d.x = (300 * Math.cos(angle)) + (width/2); // Calculate the x position of the element.
+        d.y = (300 * Math.sin(angle)) + (height/2);
+        return "translate(" + d.x + "," + d.y + ")";
       })
 
     draw.exit().remove()
