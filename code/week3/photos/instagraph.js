@@ -1,4 +1,4 @@
-
+var myCanvas;
 async function drawData() {
 /*step 1: get the data and see one piece of it*/	
 	const dataset = await d3.csv("instagramdata.csv");
@@ -22,7 +22,7 @@ http://learnjsdata.com/time.html
 	const margin = 200;
 
 /*step 3: make the canvas*/
-	const myCanvas = d3.select("#wrapper") //grab this element with the idea of wrapper
+	myCanvas = d3.select("#wrapper") //grab this element with the idea of wrapper
 		.append("svg") //add an SVG canvas
 		.attr("width", screenWidth) //of this width
 		.attr("height", screenHeight); //and this height
@@ -65,10 +65,13 @@ then you could just pull that into your fill like so:
 /*step 7: use scale to draw shapes on the canvas :) 
 check the week2/friday/bars.js example for more on this
 */
-	const dataBar = myCanvas.selectAll("db")
+	const dataBar = myCanvas.selectAll("db1")
 		.data(dataset)
 		.enter()
 		.append("rect")
+		.attr("class",function(d,i){
+			return "db"+i;
+		})
 		.attr("x", function(d){
 			return xScale(xAccessor(d)); //the x accessor parses the date for us
 		})
@@ -91,7 +94,7 @@ const dataBar2 = myCanvas.selectAll("db2")
 		.enter()
 		.append("rect")
 		.attr("class",function(d,i){
-			return "db2"+i;
+			return "db"+i;
 		})
 		.attr("x", function(d){
 			return xScale(xAccessor(d)); //the x accessor parses the date for us
@@ -101,7 +104,6 @@ const dataBar2 = myCanvas.selectAll("db2")
 		})
 		.attr("width", 2)
 		.attr("height", function(d){
-			// console.log(yScale(parseInt(d.likes)))
 			return yScale(parseInt(d.likes))/1.5;
 		})
 		.attr("fill", function(d) {
@@ -115,7 +117,7 @@ const dataBar3 = myCanvas.selectAll("db3")
 		.enter()
 		.append("rect")
 		.attr("class",function(d,i){
-			return "db3"+i;
+			return "db"+i;
 		})
 		.attr("x", function(d){
 			return xScale(xAccessor(d)); //the x accessor parses the date for us
@@ -125,7 +127,6 @@ const dataBar3 = myCanvas.selectAll("db3")
 		})
 		.attr("width", 2)
 		.attr("height", function(d){
-			// console.log(yScale(parseInt(d.likes)))
 			return yScale(parseInt(d.likes))/3;
 		})
 		.attr("fill", function(d) {
@@ -133,13 +134,16 @@ const dataBar3 = myCanvas.selectAll("db3")
 		})
 		.on("mouseover", function(d){
 		   var barUnderMouse = this;
-		   console.log(d3.select(this))
-//if you have the same classname as barundermouse
-		   console.log(this.baseVal);
+
+		   var num = d3.select(this).attr("class");
+		   console.log(num);
+			//if you have the same classname as barundermouse
+		  
 		    d3.selectAll('rect').transition().attr('opacity',function () {
-		    	if(this===barUnderMouse){
+		    	if(this===barUnderMouse || (d3.selectAll(".db"+num)!=undefined)){
 		    		return 1;
-		    	}else{
+		    	}
+		    	else{
 		    		return .5;
 		    	}
 		    });
