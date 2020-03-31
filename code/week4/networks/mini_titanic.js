@@ -11,7 +11,7 @@ var uniqueMostKeyed;
 var uniqueTotalsKeyed;
 var links = [];
 var itsDone=false;
-var filterNum = .5;
+var filterNum = .8;
 var nodes = {};
 var svg;
 var vis;
@@ -139,7 +139,17 @@ async function drawData() {
         path = vis.selectAll("path")
             .data(links)
             .enter().append("path")
-            .attr("stroke", "grey")
+            .attr("fill", function(d){
+                if(d.pClass==1){
+                    return "yellow";
+                }
+                if(d.pClass==2){
+                    return "red";
+                }
+                if(d.pClass==3){
+                    return "green";
+                }
+            })
             .attr("class", function(d){
                 return d.title;
             })
@@ -196,7 +206,24 @@ async function drawData() {
                 }
             })
             .attr("stroke-width",2)
-    
+            .on("mouseover", function(d) {
+                //get this circle's x/y values, then augment for the tooltip
+                var xPosition = parseFloat(d3.select(this).attr("d.x")) + 25;
+                var yPosition = parseFloat(d3.select(this).attr("d.y")) + 25;
+
+                d3.select("#tooltip")
+                    .style("left", xPosition + "px")
+                    .style("top", yPosition + "px")                     
+                    .select("#value")
+                    .text(d.title);
+                //show the tooltip
+                d3.select("#tooltip").classed("hidden", false);
+            })
+            .on("mouseout", function() {
+                //hide the tooltip
+                d3.select("#tooltip").classed("hidden", true); 
+            })
+
 
         function ticked() {
           path.attr("d", linkArc);

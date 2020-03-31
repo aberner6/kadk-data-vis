@@ -104,7 +104,7 @@ async function drawData() {
                 .style("left", xPosition + "px")
                 .style("top", yPosition + "px")                     
                 .select("#value")
-                .text(d.teacountry+" "+d.milknsugar);
+                .html(d.teacountry+" <br/> "+d.milknsugar);
             //show the tooltip
             d3.select("#tooltip").classed("hidden", false);
         })
