@@ -54,9 +54,15 @@
     - [Code tutorial video](https://www.dropbox.com/s/1fh92iirtdkz3n6/networks.mov?dl=0)
     - [Inspiration: Moritz Stefaner](https://truth-and-beauty.net/projects/open-systems-wall-display)
     - [Reference code: data processing for "keyword" network visualisation](https://github.com/aberner6/kadk-data-vis/tree/master/code/week4/networks) 
-    - [Force layout tutorial 1](https://www.d3indepth.com/force-layout/) [tutorial 2](https://observablehq.com/@arnauqc/building-interactive-networks-in-observable-using-d3-js)
+    - [Force layout tutorial 1](https://www.d3indepth.com/force-layout/) and [tutorial 2](https://observablehq.com/@arnauqc/building-interactive-networks-in-observable-using-d3-js)
     - [d3 force network reference](https://github.com/d3/d3-force)
     - [d3 force network examples](https://observablehq.com/collection/@d3/d3-force)
+* Preparing to present your projects
+    - [Tutorial video](https://www.dropbox.com/s/ilwab50he9x7245/html_css_reminder_styling.mov?dl=0)
+    - [Advanced template with bootstrap](https://github.com/aberner6/kadk-data-vis/tree/master/code/week4/advanced_template)
+    - [Basic template](https://github.com/aberner6/kadk-data-vis/tree/master/code/week4/template)
+    - Reminders: [HTML images](https://www.w3schools.com/html/html_images.asp) and [CSS](https://www.w3schools.com/css/)
+    - Resources: [Google fonts](https://fonts.google.com/) and [Bootstrap](https://www.w3schools.com/bootstrap/)
 
 ## Project Ideas: References
 * Water and time: 
