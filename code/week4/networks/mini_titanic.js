@@ -208,8 +208,8 @@ async function drawData() {
             .attr("stroke-width",2)
             .on("mouseover", function(d) {
                 //get this circle's x/y values, then augment for the tooltip
-                var xPosition = parseFloat(d3.select(this).attr("d.x")) + 25;
-                var yPosition = parseFloat(d3.select(this).attr("d.y")) + 25;
+                var xPosition = d3.select(this).node().transform.baseVal[0].matrix.e + radius/2;
+                var yPosition = d3.select(this).node().transform.baseVal[0].matrix.f + radius/2;;
 
                 d3.select("#tooltip")
                     .style("left", xPosition + "px")
