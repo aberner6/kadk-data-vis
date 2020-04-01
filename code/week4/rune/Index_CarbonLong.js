@@ -347,13 +347,8 @@ const bubbleData = pack(rootNode).descendants();
 // create an ordinal scale
 const colour = d3.scaleOrdinal(['#d1c4e9', '#b39ddb', '#9575cd']);
 
-// join data and add group for each node
-const nodes = graph.selectAll('g')
-    .data(bubbleData)
-    .enter()
-    .append('g')
-    .attr('transform', d => `translate(${d.x}, ${d.y})`);
-// returns an array of nodes entered into the DOM (groups)
+
+
 
 var minBub = d3.min(bubbleData, function(d){
     if(isNaN(parseFloat(d.id))){
@@ -372,6 +367,31 @@ const rScale = d3.scaleLinear()
     .domain([minBub,maxBub])
     .range([1, 50])
 
+// join data and add group for each node
+const nodes = graph.selectAll('g')
+    .data(bubbleData)
+    .enter()
+    .append('g')
+    .attr('transform', function(d){
+        return `translate(${d.x}, ${d.y})`
+    })
+    .on("mouseover", function(d){
+        // var xPosition = d3.select(this).node().transform.baseVal[0].matrix.e;
+        // var yPosition = d3.select(this).node().transform.baseVal[0].matrix.f;
+        d3.select("#info")
+            // .style("left", xPosition + "px")
+            // .style("top", yPosition + "px")                     
+            // .select("#value")
+            .text(d.id);
+        //show the tooltip
+        d3.select("#info").classed("hidden", false);
+    })
+    .on("mouseout", function() {
+        //hide the tooltip
+        d3.select("#info").classed("hidden", true); 
+    })
+// returns an array of nodes entered into the DOM (groups)
+
 
 // add circle to each group
 nodes.append('circle')
@@ -387,7 +407,19 @@ nodes.append('circle')
     })
     .attr("opacity", 1)
     .attr("stroke","white")
-    .append("feDropShadow");
+    .attr("stroke-width",1)
+    .on("mouseover", function(){
+        d3.select(this)
+            .transition()
+            .attr("stroke-width",8)
+    })
+    .on("mouseout", function(){
+        d3.select(this)
+            .transition()
+            .attr("stroke-width",1)
+    })
+    // .append("feDropShadow")
+
 // add text to each group
 nodes.filter(d => !d.children)
     .append('text')
@@ -395,7 +427,8 @@ nodes.filter(d => !d.children)
     .attr('dy','0.3em')
     .attr('fill', 'white')
     .style('font-size', 5)
-    .text(d => d.data.name);
+    .text(d => d.data.name)
+
 // add text to each group
 // nodes.filter(function(d){
 //         return d.children;
