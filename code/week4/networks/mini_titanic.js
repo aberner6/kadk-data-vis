@@ -30,8 +30,8 @@ async function drawData() {
 	console.log(accessOnePiece);
 
 /*step 2: basic dimensions, setting up canvas*/    
-    var width = window.innerWidth*.99;
-    var height = window.innerHeight*.99;
+    var width = 1200;//window.innerWidth*.99;
+    var height = 800;//window.innerHeight*.99;
 
     svg = d3.select("#wrapper")
         .append("svg")

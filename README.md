@@ -317,8 +317,10 @@ Let me know if you have any questions.
 
 ### Friday April 3 Day 12
 * Focus: presentations
+* [Our presentations](https://www.dropbox.com/s/nw78v9xefjkhe93/final_presentations.mov?dl=0) and [my summary of the course](https://www.dropbox.com/s/g6jhdzo7kxxv71p/summary.m4v?dl=0)
 * 9 a.m. project presentations: feel free to use your video (the one you will submit to KADK) and present to our group the data visualisation work specifically.
 * Please upload all project documentation into your [google drive folder](https://drive.google.com/open?id=1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i).
+* Remember to share your final code - on github or google drive
 * For KADK video:
     - Feel free to use the documentation template that you started on [google drive](https://drive.google.com/drive/u/1/folders/1GNFcgAb3PAGegkV0zV8uk9syWyX4rv4i) 
     - Collect: process of learning (data analysis, ideas, etc), process of mini-project (for example, presented as a grid of many sketches, screenshots)

@@ -421,14 +421,31 @@ nodes.append('circle')
     // .append("feDropShadow")
 
 // add text to each group
+const tScale = d3.scaleLinear()
+    .domain([minBub,maxBub])
+    .range([12, 64])
+// add text to each group
 nodes.filter(d => !d.children)
     .append('text')
     .attr('text-anchor', 'middle')
     .attr('dy','0.3em')
     .attr('fill', 'white')
-    .style('font-size', 5)
-    .text(d => d.data.name)
-
+    .attr("font-size",12)
+    .text(d => d.value)
+    .on("mouseover",function(d){
+        d3.select(this)
+        .transition()
+        .attr('font-size', function(d){
+            return tScale(parseInt(d.value));
+        })
+        .text(d => d.value)
+    }) 
+    .on("mouseout",function(d){
+        d3.select(this)
+        .transition()
+        .attr('font-size',12)
+        .text(d => d.value)
+    }) 
 // add text to each group
 // nodes.filter(function(d){
 //         return d.children;
